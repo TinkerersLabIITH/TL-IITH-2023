@@ -27,15 +27,15 @@ const App = () => {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyle />
-      <BrowserRouter basename="/TL-IITH-2023">
+      <BrowserRouter basename="/TL-IITH-2023/">
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/team" element={<Team />} />
-          <Route path="/events" element={<Events />} />
-          <Route path="/inventory" element={<Inventory />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/contacts" element={<Contacts />} />
+          <Route path="" element={<Home />} />
+          <Route path="team" element={<Team />} />
+          <Route path="events" element={<Events />} />
+          <Route path="inventory" element={<Inventory />} />
+          <Route path="projects" element={<Projects />} />
+          <Route path="contacts" element={<Contacts />} />
         </Routes>
         <Footer />
       </BrowserRouter>
