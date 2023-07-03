@@ -43,6 +43,6 @@
     "vite": "^4.3.9"
   },
   "vite": {
-    "base": "/my-repository/"
+    "base": "/TL-IITH-2023/"
   }
 }
