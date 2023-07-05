@@ -89,15 +89,15 @@ const Footer = () => {
           <div className="contacts">
             <div>
               <PhoneIcon />
-              +91 97992 98098
+              <a href="tel:+91 97992 98098">+91 97992 98098</a>
             </div>
             <div>
               <EmailIcon />
-              tl@iith.ac.in
+              <a href="mailto:tl@iith.ac.in">tl@iith.ac.in</a>
             </div>
             <div>
               <EmailIcon />
-              ms20btech11019@iith.ac.in
+              <a href="mailto:ms20btech11019@iith.ac.in">ms20btech11019@iith.ac.in</a>
             </div>
           </div>
         </div>
@@ -197,6 +197,10 @@ const MainFooter = styled.footer`
     font-size: 20px;
     font-family: Inter;
     padding-left: 6.5rem;
+
+    a{
+      color: #6c10c6;
+    }
 
     svg {
       font-size: 25px;
