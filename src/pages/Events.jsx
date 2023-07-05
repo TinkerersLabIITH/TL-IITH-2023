@@ -5,7 +5,13 @@ import Cybercon from "../images/cyberevent.png"
 import TinkeringEp2 from "../images/tinkering101ep2.png"
 import TinkeringEp1 from "../images/tinkering101ep1.png"
 import TinkerersNight from "../images/tinkerersnight.png"
+import WordAnimation from "../components/homeanimate";
+import { motion } from "framer-motion";
 const Events = () => {
+  const words = ["Think", "Tinker", "Transform"];
+const interval = 200; 
+const typingDelay = 2000; 
+const erasingDelay = 100;
   const divStyle = {
     backgroundImage: `url(${Cybercon})`,
     transform: 'translate3d(0, 0, 0)',
@@ -52,11 +58,11 @@ const Events = () => {
   }
   return (
     <EventWrapper>
-       <div className='circle1' />
-      <div className='circle2' />
-      <div className='circle3' />
-      <div className='circle4' />
-      <div className='circle5' />
+      <motion.div whileHover={{ scale: 1.5 }} className="circle1" />
+       <motion.div whileHover={{ scale: 1.5 }} className="circle2" />
+       <motion.div whileHover={{ scale: 1.5 }} className="circle3" />
+       <motion.div whileHover={{ scale: 1.5 }} className="circle4" />
+       <motion.div whileHover={{ scale: 1.5 }} className="circle5" />
       <div className="circle6" />
       <div className='circle7'/>
       <div className='circle8'/>
@@ -73,7 +79,12 @@ const Events = () => {
         <div className="section-hero-data">
           <h2 className='hero-heading'>Events</h2>
           <h3 className='hero-tag'>Tinkerers’ Lab IITH</h3>
-          <h4 className="hero-bottom">Think Tinker Transform.</h4>
+          <h4 className="hero-bottom">  <WordAnimation
+                words={words}
+                interval={interval}
+                typingDelay={typingDelay}
+                erasingDelay={erasingDelay}
+              /></h4>
         </div>
         <div className="section-hero-image">
           <picture>
@@ -87,7 +98,7 @@ const Events = () => {
       <div className="image">
       <div className='Effect' style={divStyle}>
       <div className='Content'>
-             <p>ilwauefhwaiufhiuhfiuhihiu</p>
+             <p>PRO and Events of Tinkerers’ Lab is the face of our lab. It handles relations with contingents and clubs across the country along with some of the finest professors and incubators to go along with. The PRO end of the lab will target to collaborate with such bodies and other companies this year to set up mini R&D for such bodies in the lab. The lab will also deal with clubs inside the college which will be a fantastic opportunity to interact with Alumni and Seniors. </p>
           </div>
           </div>
           <div className="Left-Img">
@@ -100,7 +111,7 @@ const Events = () => {
       <div className="image">
       <div className='Effect' style={EP2Image}>
       <div className='Content'>
-             <p>ilwauefhwaiufhiuhfiuhihiu</p>
+             <p>PRO and Events of Tinkerers’ Lab is the face of our lab. It handles relations with contingents and clubs across the country along with some of the finest professors and incubators to go along with. The PRO end of the lab will target to collaborate with such bodies and other companies this year to set up mini R&D for such bodies in the lab. The lab will also deal with clubs inside the college which will be a fantastic opportunity to interact with Alumni and Seniors. </p>
           </div>
           </div>
           <div className='Right-Img'>
@@ -113,7 +124,7 @@ const Events = () => {
       <div className="image">
       <div className='Effect' style={EP1Image}>
       <div className='Content'>
-             <p>ilwauefhwaiufhiuhfiuhihiu</p>
+             <p>PRO and Events of Tinkerers’ Lab is the face of our lab. It handles relations with contingents and clubs across the country along with some of the finest professors and incubators to go along with. The PRO end of the lab will target to collaborate with such bodies and other companies this year to set up mini R&D for such bodies in the lab. The lab will also deal with clubs inside the college which will be a fantastic opportunity to interact with Alumni and Seniors. </p>
           </div>
           </div>
           <div className="Left-Img">
@@ -126,7 +137,7 @@ const Events = () => {
       <div className="image">
       <div className='Effect' style={TNightIMG}>
       <div className='Content'>
-             <p>ilwauefhwaiufhiuhfiuhihiu</p>
+             <p>PRO and Events of Tinkerers’ Lab is the face of our lab. It handles relations with contingents and clubs across the country along with some of the finest professors and incubators to go along with. The PRO end of the lab will target to collaborate with such bodies and other companies this year to set up mini R&D for such bodies in the lab. The lab will also deal with clubs inside the college which will be a fantastic opportunity to interact with Alumni and Seniors.</p>
           </div>
           </div>
           <div className='Right-Img'>
@@ -159,9 +170,8 @@ const EventWrapper = styled.section`
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding:15rem 0;
+    padding:1%;
     gap:25%;
-   
   }
 
   .flex-item {
@@ -169,6 +179,15 @@ const EventWrapper = styled.section`
     text-align: center;
     align-items: center;
     width:75%;
+    animation: fade-in 2.5s ease-in;
+  }
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
   }
 
   .Right-Img {
@@ -319,12 +338,13 @@ const EventWrapper = styled.section`
   }
   @media (max-width: 1200px) {
     .flex-container {
-      padding: 10px;
-      gap: 20px;
+      padding: 0%;
+      gap: 25px;;
     }
   
     .flex-item {
       width: 100%;
+      left:20%;
     }
   
     .Right-Img,
@@ -335,37 +355,174 @@ const EventWrapper = styled.section`
   
     .image-name{
       font-size: 32px;
-      padding-top: 5%;
-      padding-left:20%;
-      width:100%;
+      padding-top: 4%;
+      padding-left:25%;
+      width:110%;
+      height:100px;
+      top:2px;
+      left:-5%;
     }
    
-    .image-name-3,
+    .image-name-3{
+      font-size: 32px;
+      padding-top: 4.5%;
+      padding-left:14%;
+      width:110%;
+      left:-4%;
+      height:100px;
+      top:2px;
+    }
     .image-name-4 {
       font-size: 32px;
-      padding-top: 5%;
-      padding-left:20%;
-      width:100%;
-      left:1%;
+      padding-top: 4.5%;
+      padding-left:25%;
+      width:110%;
+      left:-4%;
+      height:100px;
+      top:2px;
     }
     .image-name-2{
-      font-size: 32px;
-      padding-top: 5%;
-      padding-left:20%;
-      width:100%;
-      left:2%;
+      font-size: 30px;
+      padding-top: 4%;
+      padding-left:15%;
+      width:110%;
+      left:-4%;
+      top:2px;
+      height:100px;
     }
-    .decoration,
-    .decoration-2,
-    .decoration-3,
+    .decoration{
+      width:110%;
+      height:100px;
+      top:7%;
+      left:-4%;
+    }
+    .decoration-2{
+      width:110%;
+      height:100px;
+      top:7%;
+      left:-4%;
+    }
+    .decoration-3{
+      width:110%;
+      height:100px;
+      top:7%;
+      left:-4%;
+    }
     .decoration-4{
-      width:auto;
+      width:110%;
+      height:100px;
+      top:7%;
+      left:-4%;
     } 
 
   }
+  @media (max-width: 767px){
+    .image-name{
+      font-size: 5vw;
+      padding-top: 0%;
+      padding-left:6%;
+      width:45vw;
+      height:10vh;
+      top:-4vh;
+      left:0%;
+    }
+    .image-name-2,
+    .image-name-3{
+      font-size: 3.5vw;
+      width:53vw;
+      padding-left:5%;
+      left:4%;
+      top:-4vh;
+      height:10vh;
+      padding-top: 0%;
+    }
+    .image-name-4 {
+      font-size: 5vw;
+      padding-top: 0%;
+      padding-left:6%;
+      width:45vw;
+      height:10vh;
+      top:-4vh;
+      left:10%;
+    }
+
+    .decoration,
+    .decoration-2,
+    .decoration-3,
+    .decoration-4
+    {
+      display:none;
+    }
+  }
+  // @media (max-width: 320px){
+    
+  //   .decoration-2,
+  //   .decoration-3{
+  //     width:95%;
+  //     height:100px;
+  //     top:7%;
+  //     left:3%;
+  //   }
+  //   .decoration,
+  //   .decoration-4{
+  //     width:80%;
+  //     height:100px;
+  //     top:7%;
+  //     left:5%;
+  //   }
+  //   .image-name{
+  //     font-size: 32px;
+  //     padding-top: 4%;
+  //     padding-left:15%;
+  //     width:80%;
+  //     height:100px;
+  //     top:2px;
+  //     left:4%;
+  //   }
+  //   .image-name-3{
+  //     font-size: 32px;
+  //     padding-top: 4.5%;
+  //     padding-left:04%;
+  //     width:95%;
+  //     left:2.5%;
+  //     height:100px;
+  //     top:2px;
+  //   }
+  //   .image-name-4 {
+  //     font-size: 32px;
+  //     padding-top: 4.5%;
+  //     padding-left:15%;
+  //     width:80%;
+  //     left:5%;
+  //     height:100px;
+  //     top:2px;
+  //   }
+  //   .image-name-2{
+  //     font-size: 30px;
+  //     padding-top: 4%;
+  //     padding-left:4%;
+  //     width:95%;
+  //     left:2.5%;
+  //     top:2px;
+  //     height:100px;
+  //   }
+  //   .Effect{
+  //     left:20%;
+  //   }
+  // }
   
   
-  
+  .section-hero-image{
+    animation: fade-i 2s ease;
+  }
+  @keyframes fade-i {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
   
   
   .circle2{
@@ -474,7 +631,7 @@ const EventWrapper = styled.section`
     font-weight: 700;
     width: auto;
     height: auto;
-    font-size: 5.5rem;
+    font-size: 8.5rem;
     position: unset;
 }
 
@@ -484,7 +641,7 @@ const EventWrapper = styled.section`
     width: auto;
     height: auto;
     position: unset;
-    font-size: 4rem;
+    font-size: 3rem;
     line-height: 4rem;
     }
 
@@ -683,7 +840,7 @@ background: #6C10C6;
   transition: opacity 0.5s ease;
 }
 .Effect:before {
-  background: rgba(104, 50, 172, 0.6); /* Replace with your desired light purple color */
+  background: rgba(104, 50, 172, 0.6); 
   z-index: 1;
   opacity: 0;
   transform: translate3d(0, 10, 0) translateY(100%);
@@ -715,9 +872,9 @@ background: #6C10C6;
   z-index: 10;
   text-align: center;
   margin: 0 1.618em;
-  top: 50%; /* Adjust the vertical position to center the content */
+  top: 40%; 
   opacity: 0;
-  color: white; /* Change the color to purple */
+  color: white; 
   font-size: 20px;
 }
 @media (max-width: 1000px) {

@@ -1,38 +1,67 @@
-import { items } from "./imagescroll.json";
-import Carousel from "react-elastic-carousel";
-import styles from "../styles/Elastic.module.css";
+import ImageGallery from "react-image-gallery";
+import "react-image-gallery/styles/css/image-gallery.css";
+import styled from "styled-components";
 
-const breakPoints = [
-  { width: 1, itemsToShow: 1 },
-  { width: 550, itemsToShow: 1, itemsToScroll: 1 },
-  { width: 768, itemsToShow: 1 },
-  { width: 1200, itemsToShow: 1 }
+const images = [
+  {
+    original: "./imagescroll/Imagescroll1.png",
+    thumbnail: "./imagescroll/Imagescroll1.png",
+  },
+  {
+    original: "./imagescroll/Imagescroll3.png",
+    thumbnail: "./imagescroll/Imagescroll3.png",
+  },
+  {
+    original: "./imagescroll/Imagescroll4.png",
+    thumbnail: "./imagescroll/Imagescroll4.png",
+  },
+  {
+    original: "./imagescroll/Imagescroll5.png",
+    thumbnail: "./imagescroll/Imagescroll5.png",
+  },
+  {
+    original: "./imagescroll/Imagescroll2.png",
+    thumbnail: "./imagescroll/Imagescroll2.png",
+  },
 ];
 
-export default function ElasticCarousel() {
-  const { elastic } = items;
+export default function ImgGallery() {
   return (
-    <div className={styles.container}>
-      <div>
-        <h1>Gallery</h1>
+    <ImageScrollStuled>
+      <div className="contimg">
+        <div className="imggal">
+          <ImageGallery
+            showNav={true}
+            showPlayButton={false}
+            showFullscreenButton={false}
+            showThumbnails={false}
+            items={images}
+          />
+        </div>
       </div>
-
-      {/* <hr className={styles.seperator} /> */}
-      <div className={styles.contWrapper}>
-        <Carousel breakPoints={breakPoints}>
-          {elastic.map((item) => (
-            <div
-              key={item.id}
-              className={styles.card}
-            >
-              <img src={item.imageUrl} alt={item.title} className={styles.backgroundImage} />
-              {/* <div className={styles.title}>
-                <h3>{item.title} </h3>
-              </div> */}
-            </div>
-          ))}
-        </Carousel>
-      </div>
-    </div>
+    </ImageScrollStuled>
   );
 }
+
+const ImageScrollStuled = styled.section`
+  .contimg {
+    margin-top: 25rem;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 10rem;
+    width: 100%;
+  }
+
+  .imggal {
+    width: 70%;
+    margin-left: 15%;
+
+    @media (max-width: 900px) {
+      width: 90%;
+      margin-left: 5%;
+    }
+  }
+  .image-gallery-slide .image-gallery-image {
+    border-radius: 60px;
+  }
+`;

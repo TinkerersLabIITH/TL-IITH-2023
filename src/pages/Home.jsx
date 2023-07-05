@@ -3,6 +3,7 @@ import styled from "styled-components";
 import WordAnimation from "../components/homeanimate";
 import ImageScroll from "../components/imagescroll";
 import { NavLink } from "react-router-dom";
+import { motion } from "framer-motion";
 
 const words = ["Think", "Tinker", "Transform"];
 const interval = 200; // Delay between each letter
@@ -12,17 +13,19 @@ const erasingDelay = 100; // Delay between each erased letter
 const Home = () => {
   return (
     <Homestyled>
-      <div className="ellipse1" />
-      <div className="ellipse2"></div>
-      {/* <div className="circle1" /> */}
-      <div className="circle2" />
-      <div className="circle3" />
-      {/* <div className="circle4" /> */}
-      {/* <div className="circle5" /> */}
+      <motion.div whileHover={{ scale: 1.5 }} className="circle2" />
+      <motion.div whileHover={{ scale: 1.5 }} className="circle3" />
       <div className="container">
         <div className="row">
           <div className="col-xl" id="left">
-            <div className="hero-heading">Tinkerers’ Laboratory</div>
+            <motion.div
+              initial={{ opacity: 0, y: "50%" }}
+              animate={{ opacity: 1, y: 0, transition: { duration: 0.5 } }}
+              transition={{ duration: 1 }}
+              className="hero-heading"
+            >
+              Tinkerers' Laboratory
+            </motion.div>
             <div className="hero-tag">IIT Hyderabad</div>
             <div className="hero-bottom">
               <WordAnimation
@@ -32,14 +35,25 @@ const Home = () => {
                 erasingDelay={erasingDelay}
               />
             </div>
-            <button className="reachus">
+            <motion.button
+              whileHover={{ scale: 1.2 }}
+              whileTap={{ scale: 0.8 }}
+              className="reachus"
+            >
               <NavLink to="/contacts">Reach Us</NavLink>
-            </button>
+            </motion.button>
           </div>
           <div className="col-xl" id="right">
             <div className="section-hero-image">
               <picture>
-                <img className="pic1" src="./images/Home.svg" alt="image" />
+                <motion.img
+                  initial={{ y: "20%", opacity: 0, scale: 0.8 }}
+                  animate={{ y: 0, opacity: 1, scale: 1 }}
+                  transition={{ duration: 1 }}
+                  className="pic1"
+                  src="./images/Home.svg"
+                  alt="image"
+                />
               </picture>
             </div>
           </div>
@@ -57,7 +71,7 @@ const Home = () => {
         </div>
         <div className="row" id="aims2">
           <div className="col-lg-4 col-md-6">
-            <div className="cont">
+            <motion.div whileHover={{ scale: 1.1 }} className="cont">
               <div className="box">
                 <img src="./images/aim1.svg" alt="Aim1" />
               </div>
@@ -65,15 +79,15 @@ const Home = () => {
                 <div className="heading">Availability</div>
                 <div className="line"></div>
                 <div className="desp2">
-                  We know that the best ideas don't always come to us during
-                  work hours. Tinkerers' Lab is open 24/7, giving you the
-                  liberty to build and innovate whenever.
+                  We know the best ideas don't always come to us during work
+                  hours. Tinkerers' Lab is open 24/7, giving the liberty to
+                  build and innovate whenever.
                 </div>
               </div>
-            </div>
+            </motion.div>
           </div>
           <div className="col-lg-4 col-md-6">
-            <div className="cont">
+            <motion.div whileHover={{ scale: 1.1 }} className="cont">
               <div className="box">
                 <img src="./images/aim2.svg" alt="Aim1" />
               </div>
@@ -85,10 +99,10 @@ const Home = () => {
                   Raspberry Pis and Arduinos to CNCs and 3D Printers.
                 </div>
               </div>
-            </div>
+            </motion.div>
           </div>
           <div className="col-lg-4 col-md-6">
-            <div className="cont">
+            <motion.div whileHover={{ scale: 1.1 }} className="cont">
               <div className="box">
                 <img src="./images/aim3.svg" alt="Aim1" />
               </div>
@@ -101,7 +115,7 @@ const Home = () => {
                   boundaries.
                 </div>
               </div>
-            </div>
+            </motion.div>
             <div className="hand">
               <img src="./images/hand.svg" alt="hand" />
             </div>
@@ -124,6 +138,8 @@ const Homestyled = styled.section`
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
   .hand {
     position: absolute;
@@ -143,9 +159,10 @@ const Homestyled = styled.section`
     text-align: center;
 
     color: #001824;
-    padding: 0rem 15vw;
+    padding: 0rem 5vw;
     margin-bottom: 15vh;
   }
+
   #aims2,
   #aims {
     width: 100vw;
@@ -238,20 +255,6 @@ const Homestyled = styled.section`
 
     color: #ffffff;
   }
-  .ellipse2 {
-    position: absolute;
-    width: 33vw;
-    height: 35vw;
-    left: 0;
-    top: -18vw;
-
-    background: radial-gradient(
-        40.83% 40.83% at 50% 50%,
-        rgba(0, 224, 255, 0.5) 0%,
-        rgba(51, 182, 255, 0) 100%
-      )
-      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
-  }
 
   .circle1 {
     position: absolute;
@@ -261,21 +264,6 @@ const Homestyled = styled.section`
     border-radius: 50%;
     left: 8rem;
     top: 12rem;
-  }
-
-  .ellipse1 {
-    position: absolute;
-    width: 40vw;
-    height: 45vw;
-    left: -18vw;
-    top: -19vw;
-
-    background: radial-gradient(
-        40.83% 40.83% at 50% 50%,
-        rgba(108, 16, 198, 0.5) 0%,
-        rgba(186, 104, 200, 0) 100%
-      )
-      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
   }
   .circle2 {
     position: absolute;
@@ -303,24 +291,28 @@ const Homestyled = styled.section`
     top: 68rem;
   }
   .pic1 {
-    animation: rotation1 8s infinite linear;
+    animation-name: rotation1;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+    animation-delay: 1s;
+    // animation: rotation1 8s infinite linear;
   }
-
   @keyframes rotation1 {
-    0%,
-    100% {
-      transform: rotate(-15deg);
+    0% {
+      transform: rotate(0deg);
     }
-    10%,
-    90% {
-      transform: rotate(-10deg);
+    25% {
+      transform: rotate(25deg);
     }
-    40%,
-    60% {
-      transform: rotate(10deg);
+    25% {
+      transform: rotate(-25deg);
     }
-    50% {
-      transform: rotate(15deg);
+    25% {
+      transform: rotate(-25deg);
+    }
+    25% {
+      transform: rotate(25deg);
     }
   }
 
