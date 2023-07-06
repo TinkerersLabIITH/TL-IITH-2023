@@ -422,8 +422,8 @@ const EventWrapper = styled.section`
       padding-top: 0%;
       padding-left:6%;
       width:45vw;
-      height:10vh;
-      top:-4vh;
+      height:7vh;
+      top:-1.5vh;
       left:0%;
     }
     .image-name-2,
@@ -432,8 +432,8 @@ const EventWrapper = styled.section`
       width:53vw;
       padding-left:5%;
       left:4%;
-      top:-4vh;
-      height:10vh;
+      top:-1.5vh;
+      height:7vh;
       padding-top: 0%;
     }
     .image-name-4 {
@@ -441,8 +441,8 @@ const EventWrapper = styled.section`
       padding-top: 0%;
       padding-left:6%;
       width:45vw;
-      height:10vh;
-      top:-4vh;
+      height:7vh;
+      top:-1.5vh;
       left:10%;
     }
 
@@ -454,63 +454,7 @@ const EventWrapper = styled.section`
       display:none;
     }
   }
-  // @media (max-width: 320px){
-    
-  //   .decoration-2,
-  //   .decoration-3{
-  //     width:95%;
-  //     height:100px;
-  //     top:7%;
-  //     left:3%;
-  //   }
-  //   .decoration,
-  //   .decoration-4{
-  //     width:80%;
-  //     height:100px;
-  //     top:7%;
-  //     left:5%;
-  //   }
-  //   .image-name{
-  //     font-size: 32px;
-  //     padding-top: 4%;
-  //     padding-left:15%;
-  //     width:80%;
-  //     height:100px;
-  //     top:2px;
-  //     left:4%;
-  //   }
-  //   .image-name-3{
-  //     font-size: 32px;
-  //     padding-top: 4.5%;
-  //     padding-left:04%;
-  //     width:95%;
-  //     left:2.5%;
-  //     height:100px;
-  //     top:2px;
-  //   }
-  //   .image-name-4 {
-  //     font-size: 32px;
-  //     padding-top: 4.5%;
-  //     padding-left:15%;
-  //     width:80%;
-  //     left:5%;
-  //     height:100px;
-  //     top:2px;
-  //   }
-  //   .image-name-2{
-  //     font-size: 30px;
-  //     padding-top: 4%;
-  //     padding-left:4%;
-  //     width:95%;
-  //     left:2.5%;
-  //     top:2px;
-  //     height:100px;
-  //   }
-  //   .Effect{
-  //     left:20%;
-  //   }
-  // }
-  
+
   
   .section-hero-image{
     animation: fade-i 2s ease;

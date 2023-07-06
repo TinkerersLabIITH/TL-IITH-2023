@@ -79,9 +79,9 @@ const Home = () => {
                 <div className="heading">Availability</div>
                 <div className="line"></div>
                 <div className="desp2">
-                  We know the best ideas don't always come to us during work
-                  hours. Tinkerers' Lab is open 24/7, giving the liberty to
-                  build and innovate whenever.
+                  We know that best ideas don't come in working hours only,
+                  given that, Tinkerers' lab is open 24/7 for students to tinker
+                  at their convenience
                 </div>
               </div>
             </motion.div>
