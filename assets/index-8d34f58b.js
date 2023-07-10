@@ -1726,7 +1726,7 @@ background: #6C10C6;
       display: none;
     }
   }
-`,ye=["Think","Tinker","Transform"],Ne=200,Ie=2e3,Ae=100,ke=()=>e.jsxs(Te,{children:[e.jsx(t.div,{whileHover:{scale:1.5},className:"circle1"}),e.jsx(t.div,{whileHover:{scale:1.5},className:"circle2"}),e.jsx(t.div,{whileHover:{scale:1.5},className:"circle3"}),e.jsx(t.div,{whileHover:{scale:1.5},className:"circle4"}),e.jsx(t.div,{whileHover:{scale:1.5},className:"circle5"}),e.jsxs("div",{className:"container",children:[e.jsxs("div",{className:"row",children:[e.jsxs("div",{className:"col-xl",id:"left",children:[e.jsx(t.div,{initial:{opacity:0,y:"50%"},animate:{opacity:1,y:0,transition:{duration:.5}},transition:{duration:1},className:"hero-heading",children:"Projects"}),e.jsx("h3",{className:"hero-tag",children:"Tinkerers’ Lab IITH"}),e.jsx("h4",{className:"hero-bottom",children:e.jsx(u,{words:ye,interval:Ne,typingDelay:Ie,erasingDelay:Ae})})]}),e.jsx("div",{className:"col-xl",id:"right",children:e.jsx("picture",{children:e.jsx(t.img,{initial:{y:"20%",opacity:0,scale:.8},animate:{y:0,opacity:1,scale:1},transition:{duration:1},src:"./images/Project1.svg",alt:"image",className:"hero-img"})})})]}),e.jsxs("div",{className:"row",id:"collab-form",children:[e.jsx("h3",{style:{fontWeight:500,color:"black"},children:"Projects Available"}),e.jsx("div",{className:"col-lg-4 col-md-6",children:e.jsxs(t.div,{whileHover:{scale:1.1},className:"cont",children:[e.jsx("div",{className:"box",children:e.jsx("img",{src:"./images/mlp.png",alt:"Aim1"})}),e.jsxs("div",{className:"content",children:[e.jsx("div",{className:"heading",children:"ML Project"}),e.jsx("div",{className:"line"}),e.jsxs("div",{className:"desp2",children:[e.jsx("div",{children:"Click on the Below Link to apply for a Machine Learning Project"}),e.jsx(t.div,{whileHover:{scale:1.2},whileTap:{scale:.8},children:e.jsx(t.a,{style:{fontSize:"22px",fontWeight:550,color:"#6c10c6"},href:"https://forms.gle/HP1JpcnNZ8Vkrq6BA",children:"Apply"})})]})]})]})}),e.jsx("div",{className:"col-lg-4 col-md-6",children:e.jsxs(t.div,{whileHover:{scale:1.1},className:"cont",children:[e.jsx("div",{className:"box",children:e.jsx("img",{src:"./images/swp.png",alt:"Aim1"})}),e.jsxs("div",{className:"content",children:[e.jsx("div",{className:"heading",children:"Software Project"}),e.jsx("div",{className:"line"}),e.jsxs("div",{className:"desp2",children:[e.jsx("div",{children:"Click on the Below Link to apply for a Software Project"}),e.jsx(t.div,{whileHover:{scale:1.2},whileTap:{scale:.8},children:e.jsx(t.a,{style:{fontSize:"22px",fontWeight:550,color:"#6c10c6"},href:"https://forms.gle/kuZVM7fEwbZYBRHG6",children:"Apply"})})]})]})]})}),e.jsx("div",{className:"col-lg-4 col-md-6",children:e.jsxs(t.div,{whileHover:{scale:1.1},className:"cont",children:[e.jsx("div",{className:"box",children:e.jsx("img",{src:"./images/otp.png",alt:"Aim1"})}),e.jsxs("div",{className:"content",children:[e.jsx("div",{className:"heading",children:"Mechatronics Project"}),e.jsx("div",{className:"line"}),e.jsxs("div",{className:"desp2",children:[e.jsxs("div",{children:[" ","Click on the Below Link to apply for a Mechatronics Projects"]}),e.jsx(t.div,{whileHover:{scale:1.2},whileTap:{scale:.8},children:e.jsx(t.a,{style:{fontSize:"22px",fontWeight:550,color:"#6c10c6"},href:"https://forms.gle/Xfne9oNdSwaw6WzL7",children:"Apply"})})]})]})]})})]}),e.jsx("h3",{style:{fontSize:"30px",fontWeight:500,paddingTop:"70px",color:"black"},children:"If you have any innovative ideas and want to combine with TL, please fill the below form"}),e.jsx(t.button,{whileHover:{scale:1.2},whileTap:{scale:.8},className:"btn",children:"Apply"})]})]}),Te=c.section`
+`,ye=["Think","Tinker","Transform"],Ne=200,Ie=2e3,Ae=100,ke=()=>e.jsxs(Te,{children:[e.jsx(t.div,{whileHover:{scale:1.5},className:"circle1"}),e.jsx(t.div,{whileHover:{scale:1.5},className:"circle2"}),e.jsx(t.div,{whileHover:{scale:1.5},className:"circle3"}),e.jsx(t.div,{whileHover:{scale:1.5},className:"circle4"}),e.jsx(t.div,{whileHover:{scale:1.5},className:"circle5"}),e.jsxs("div",{className:"container",children:[e.jsxs("div",{className:"row",children:[e.jsxs("div",{className:"col-xl",id:"left",children:[e.jsx(t.div,{initial:{opacity:0,y:"50%"},animate:{opacity:1,y:0,transition:{duration:.5}},transition:{duration:1},className:"hero-heading",children:"Projects"}),e.jsx("h3",{className:"hero-tag",children:"Tinkerers’ Lab IITH"}),e.jsx("h4",{className:"hero-bottom",children:e.jsx(u,{words:ye,interval:Ne,typingDelay:Ie,erasingDelay:Ae})})]}),e.jsx("div",{className:"col-xl",id:"right",children:e.jsx("picture",{children:e.jsx(t.img,{initial:{y:"20%",opacity:0,scale:.8},animate:{y:0,opacity:1,scale:1},transition:{duration:1},src:"./images/Project1.svg",alt:"image",className:"hero-img"})})})]}),e.jsxs("div",{className:"row",id:"collab-form",children:[e.jsx("h3",{style:{fontWeight:500,color:"black"},children:"Projects Available"}),e.jsx("div",{className:"col-lg-4 col-md-6",children:e.jsxs(t.div,{whileHover:{scale:1.1},className:"cont",children:[e.jsx("div",{className:"box",children:e.jsx("img",{src:"./images/mlp.png",alt:"Aim1"})}),e.jsxs("div",{className:"content",children:[e.jsx("div",{className:"heading",children:"ML Project"}),e.jsx("div",{className:"line"}),e.jsxs("div",{className:"desp2",children:[e.jsx("div",{children:"Click on the Below Link to apply for a Machine Learning Project"}),e.jsx(t.div,{whileHover:{scale:1.2},whileTap:{scale:.8},children:e.jsx(t.a,{style:{fontSize:"22px",fontWeight:550,color:"#6c10c6"},href:"https://forms.gle/HP1JpcnNZ8Vkrq6BA",children:"Apply"})})]})]})]})}),e.jsx("div",{className:"col-lg-4 col-md-6",children:e.jsxs(t.div,{whileHover:{scale:1.1},className:"cont",children:[e.jsx("div",{className:"box",children:e.jsx("img",{src:"./images/swp.png",alt:"Aim1"})}),e.jsxs("div",{className:"content",children:[e.jsx("div",{className:"heading",children:"Software Project"}),e.jsx("div",{className:"line"}),e.jsxs("div",{className:"desp2",children:[e.jsx("div",{children:"Click on the Below Link to apply for a Software Project"}),e.jsx(t.div,{whileHover:{scale:1.2},whileTap:{scale:.8},children:e.jsx(t.a,{style:{fontSize:"22px",fontWeight:550,color:"#6c10c6"},href:"https://forms.gle/kuZVM7fEwbZYBRHG6",children:"Apply"})})]})]})]})}),e.jsx("div",{className:"col-lg-4 col-md-6",children:e.jsxs(t.div,{whileHover:{scale:1.1},className:"cont",children:[e.jsx("div",{className:"box",children:e.jsx("img",{src:"./images/otp.png",alt:"Aim1"})}),e.jsxs("div",{className:"content",children:[e.jsx("div",{className:"heading",children:"Mechatronics Project"}),e.jsx("div",{className:"line"}),e.jsxs("div",{className:"desp2",children:[e.jsxs("div",{children:[" ","Click on the Below Link to apply for a Mechatronics Projects"]}),e.jsx(t.div,{whileHover:{scale:1.2},whileTap:{scale:.8},children:e.jsx(t.a,{style:{fontSize:"22px",fontWeight:550,color:"#6c10c6"},href:"https://forms.gle/Xfne9oNdSwaw6WzL7",children:"Apply"})})]})]})]})})]}),e.jsx("h3",{style:{fontSize:"30px",fontWeight:500,paddingTop:"70px",color:"black"},children:"If you have any innovative ideas and want to combine with TL, please fill the below form"}),e.jsx(t.button,{whileHover:{scale:1.2},whileTap:{scale:.8},className:"btn",children:e.jsx(t.a,{href:"https://forms.gle/S46rwzJ3kr55pDna6",className:"btn1",children:"Apply"})})]})]}),Te=c.section`
   padding: 9rem 0;
   .col-lg-4,
   .col-md-6 {
@@ -1814,22 +1814,21 @@ background: #6C10C6;
     margin-top: 50px;
     width: 200px;
     height: 7vh;
-    a {
-      color: #fff;
-    }
     background: #6c10c6;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 46px;
+    align-items: center;
+    text-align: center;
+
+    color: #ffffff;
+  }
+  .btn1{
     font-family: "Inter";
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 39px;
-
-    align-items: center;
-    text-align: center;
-
-    color: #ffffff;
+    color:#fff;
   }
   .circle1 {
     position: absolute;
@@ -2169,6 +2168,7 @@ background: #6C10C6;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
   }
 
   .section-message-box {
@@ -2277,6 +2277,10 @@ background: #6C10C6;
     min-height: 410px;
     max-width: 500px;
     max-height: 700px;
+    height : 70vh;
+    max-width:450px;
+    max-height:500px;
+    margin-bottom:4vh;
   }
 
   .message-warning {
@@ -2415,7 +2419,7 @@ background: #6C10C6;
 
       .map-iframe {
         width: 80vw;
-        margin-left: -3vw;
+        margin-left:0vw
       }
 
       .section-message {
