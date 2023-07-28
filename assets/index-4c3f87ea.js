@@ -1,4 +1,4 @@
-import{s as c,r as a,j as e,N as m,I as D,m as t,g as f,S as L,d as F,a as H,b as P,X as M,H as K,R as $,c as w,e as O,f as W}from"./vendor-79175b33.js";(function(){const d=document.createElement("link").relList;if(d&&d.supports&&d.supports("modulepreload"))return;for(const n of document.querySelectorAll('link[rel="modulepreload"]'))p(n);new MutationObserver(n=>{for(const s of n)if(s.type==="childList")for(const h of s.addedNodes)h.tagName==="LINK"&&h.rel==="modulepreload"&&p(h)}).observe(document,{childList:!0,subtree:!0});function r(n){const s={};return n.integrity&&(s.integrity=n.integrity),n.referrerPolicy&&(s.referrerPolicy=n.referrerPolicy),n.crossOrigin==="use-credentials"?s.credentials="include":n.crossOrigin==="anonymous"?s.credentials="omit":s.credentials="same-origin",s}function p(n){if(n.ep)return;n.ep=!0;const s=r(n);fetch(n.href,s)}})();const V=()=>{const[i,d]=a.useState(!1),r=()=>{d(!i)};return e.jsx("div",{className:"nav-container",children:e.jsxs(Y,{children:[e.jsx(G,{children:e.jsx("img",{src:"./images/LogoNav.svg",alt:""})}),e.jsxs(B,{onClick:r,className:i?"active":"",children:[e.jsx("div",{}),e.jsx("div",{}),e.jsx("div",{})]}),e.jsx(U,{showMenu:i,className:i?"active":"",children:e.jsxs(X,{children:[e.jsx(v,{children:e.jsx(m,{onClick:r,to:"/",children:"Home"})}),e.jsx(v,{children:e.jsx(m,{onClick:r,to:"/team",children:"Team"})}),e.jsx(v,{children:e.jsx(m,{onClick:r,to:"/events",children:"Events"})}),e.jsx(v,{children:e.jsx(m,{onClick:r,to:"/inventory",children:"Inventory"})}),e.jsx(v,{children:e.jsx(m,{onClick:r,to:"/projects",children:"Projects"})}),e.jsx(v,{children:e.jsx(m,{onClick:r,to:"/contacts",children:"Contacts"})})]})})]})})},Y=c.nav`
+import{s as c,r as a,j as e,N as m,I as D,m as t,g as f,S as L,d as F,a as H,b as P,X as M,H as K,R as O,c as w,e as $,f as W}from"./vendor-79175b33.js";(function(){const d=document.createElement("link").relList;if(d&&d.supports&&d.supports("modulepreload"))return;for(const n of document.querySelectorAll('link[rel="modulepreload"]'))p(n);new MutationObserver(n=>{for(const s of n)if(s.type==="childList")for(const h of s.addedNodes)h.tagName==="LINK"&&h.rel==="modulepreload"&&p(h)}).observe(document,{childList:!0,subtree:!0});function r(n){const s={};return n.integrity&&(s.integrity=n.integrity),n.referrerPolicy&&(s.referrerPolicy=n.referrerPolicy),n.crossOrigin==="use-credentials"?s.credentials="include":n.crossOrigin==="anonymous"?s.credentials="omit":s.credentials="same-origin",s}function p(n){if(n.ep)return;n.ep=!0;const s=r(n);fetch(n.href,s)}})();const V=()=>{const[i,d]=a.useState(!1),r=()=>{d(!i)};return e.jsx("div",{className:"nav-container",children:e.jsxs(Y,{children:[e.jsx(G,{children:e.jsx("img",{src:"./images/LogoNav.svg",alt:""})}),e.jsxs(B,{onClick:r,className:i?"active":"",children:[e.jsx("div",{}),e.jsx("div",{}),e.jsx("div",{})]}),e.jsx(U,{showMenu:i,className:i?"active":"",children:e.jsxs(X,{children:[e.jsx(v,{children:e.jsx(m,{onClick:r,to:"/",children:"Home"})}),e.jsx(v,{children:e.jsx(m,{onClick:r,to:"/team",children:"Team"})}),e.jsx(v,{children:e.jsx(m,{onClick:r,to:"/events",children:"Events"})}),e.jsx(v,{children:e.jsx(m,{onClick:r,to:"/inventory",children:"Inventory"})}),e.jsx(v,{children:e.jsx(m,{onClick:r,to:"/projects",children:"Projects"})}),e.jsx(v,{children:e.jsx(m,{onClick:r,to:"/contacts",children:"Contacts"})})]})})]})})},Y=c.nav`
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1726,7 +1726,7 @@ background: #6C10C6;
       display: none;
     }
   }
-`,ye=["Think","Tinker","Transform"],Ne=200,Ie=2e3,Ae=100,ke=()=>e.jsxs(Te,{children:[e.jsx(t.div,{whileHover:{scale:1.5},className:"circle1"}),e.jsx(t.div,{whileHover:{scale:1.5},className:"circle2"}),e.jsx(t.div,{whileHover:{scale:1.5},className:"circle3"}),e.jsx(t.div,{whileHover:{scale:1.5},className:"circle4"}),e.jsx(t.div,{whileHover:{scale:1.5},className:"circle5"}),e.jsxs("div",{className:"container",children:[e.jsxs("div",{className:"row",children:[e.jsxs("div",{className:"col-xl",id:"left",children:[e.jsx(t.div,{initial:{opacity:0,y:"50%"},animate:{opacity:1,y:0,transition:{duration:.5}},transition:{duration:1},className:"hero-heading",children:"Projects"}),e.jsx("h3",{className:"hero-tag",children:"Tinkerers’ Lab IITH"}),e.jsx("h4",{className:"hero-bottom",children:e.jsx(u,{words:ye,interval:Ne,typingDelay:Ie,erasingDelay:Ae})})]}),e.jsx("div",{className:"col-xl",id:"right",children:e.jsx("picture",{children:e.jsx(t.img,{initial:{y:"20%",opacity:0,scale:.8},animate:{y:0,opacity:1,scale:1},transition:{duration:1},src:"./images/Project1.svg",alt:"image",className:"hero-img"})})})]}),e.jsxs("div",{className:"row",id:"collab-form",children:[e.jsx("h3",{style:{fontWeight:500,color:"black"},children:"Projects Available"}),e.jsx("div",{className:"col-lg-4 col-md-6",children:e.jsxs(t.div,{whileHover:{scale:1.1},className:"cont",children:[e.jsx("div",{className:"box",children:e.jsx("img",{src:"./images/mlp.png",alt:"Aim1"})}),e.jsxs("div",{className:"content",children:[e.jsx("div",{className:"heading",children:"ML Project"}),e.jsx("div",{className:"line"}),e.jsxs("div",{className:"desp2",children:[e.jsx("div",{children:"Click on the Below Link to apply for a Machine Learning Project"}),e.jsx(t.div,{whileHover:{scale:1.2},whileTap:{scale:.8},children:e.jsx(t.a,{style:{fontSize:"22px",fontWeight:550,color:"#6c10c6"},href:"https://forms.gle/HP1JpcnNZ8Vkrq6BA",children:"Apply"})})]})]})]})}),e.jsx("div",{className:"col-lg-4 col-md-6",children:e.jsxs(t.div,{whileHover:{scale:1.1},className:"cont",children:[e.jsx("div",{className:"box",children:e.jsx("img",{src:"./images/swp.png",alt:"Aim1"})}),e.jsxs("div",{className:"content",children:[e.jsx("div",{className:"heading",children:"Software Project"}),e.jsx("div",{className:"line"}),e.jsxs("div",{className:"desp2",children:[e.jsx("div",{children:"Click on the Below Link to apply for a Software Project"}),e.jsx(t.div,{whileHover:{scale:1.2},whileTap:{scale:.8},children:e.jsx(t.a,{style:{fontSize:"22px",fontWeight:550,color:"#6c10c6"},href:"https://forms.gle/kuZVM7fEwbZYBRHG6",children:"Apply"})})]})]})]})}),e.jsx("div",{className:"col-lg-4 col-md-6",children:e.jsxs(t.div,{whileHover:{scale:1.1},className:"cont",children:[e.jsx("div",{className:"box",children:e.jsx("img",{src:"./images/otp.png",alt:"Aim1"})}),e.jsxs("div",{className:"content",children:[e.jsx("div",{className:"heading",children:"Mechatronics Project"}),e.jsx("div",{className:"line"}),e.jsxs("div",{className:"desp2",children:[e.jsxs("div",{children:[" ","Click on the Below Link to apply for a Mechatronics Projects"]}),e.jsx(t.div,{whileHover:{scale:1.2},whileTap:{scale:.8},children:e.jsx(t.a,{style:{fontSize:"22px",fontWeight:550,color:"#6c10c6"},href:"https://forms.gle/Xfne9oNdSwaw6WzL7",children:"Apply"})})]})]})]})})]}),e.jsx("h3",{style:{fontSize:"30px",fontWeight:500,paddingTop:"70px",color:"black"},children:"If you have any innovative ideas and want to combine with TL, please fill the below form"}),e.jsx(t.button,{whileHover:{scale:1.2},whileTap:{scale:.8},className:"btn",children:e.jsx(t.a,{href:"https://forms.gle/S46rwzJ3kr55pDna6",className:"btn1",children:"Apply"})})]})]}),Te=c.section`
+`,ye=["Think","Tinker","Transform"],Ne=200,Ie=2e3,Ae=100,ke=()=>e.jsxs(Te,{children:[e.jsx(t.div,{whileHover:{scale:1.5},className:"circle1"}),e.jsx(t.div,{whileHover:{scale:1.5},className:"circle2"}),e.jsx(t.div,{whileHover:{scale:1.5},className:"circle3"}),e.jsx(t.div,{whileHover:{scale:1.5},className:"circle4"}),e.jsx(t.div,{whileHover:{scale:1.5},className:"circle5"}),e.jsxs("div",{className:"container",children:[e.jsxs("div",{className:"row",children:[e.jsxs("div",{className:"col-xl",id:"left",children:[e.jsx(t.div,{initial:{opacity:0,y:"50%"},animate:{opacity:1,y:0,transition:{duration:.5}},transition:{duration:1},className:"hero-heading",children:"Projects"}),e.jsx("h3",{className:"hero-tag",children:"Tinkerers’ Lab IITH"}),e.jsx("h4",{className:"hero-bottom",children:e.jsx(u,{words:ye,interval:Ne,typingDelay:Ie,erasingDelay:Ae})})]}),e.jsx("div",{className:"col-xl",id:"right",children:e.jsx("picture",{children:e.jsx(t.img,{initial:{y:"20%",opacity:0,scale:.8},animate:{y:0,opacity:1,scale:1},transition:{duration:1},src:"./images/Project1.svg",alt:"image",className:"hero-img"})})})]}),e.jsxs("div",{className:"row",id:"collab-form",children:[e.jsx("h3",{style:{fontWeight:500,color:"black"},children:"Projects Available"}),e.jsx("div",{className:"col-lg-4 col-md-6",children:e.jsxs(t.div,{whileHover:{scale:1.1},className:"cont",children:[e.jsx("div",{className:"box",children:e.jsx("img",{src:"./images/mlp.png",alt:"Aim1"})}),e.jsxs("div",{className:"content",children:[e.jsx("div",{className:"heading",children:"ML Project"}),e.jsx("div",{className:"line"}),e.jsxs("div",{className:"desp2",children:[e.jsx("div",{children:"Click on the Below Link to apply for a Machine Learning Project"}),e.jsx(t.div,{whileHover:{scale:1.2},whileTap:{scale:.8},children:e.jsx(t.a,{style:{fontSize:"22px",fontWeight:550,color:"#6c10c6"},href:"",children:"Apply"})})]})]})]})}),e.jsx("div",{className:"col-lg-4 col-md-6",children:e.jsxs(t.div,{whileHover:{scale:1.1},className:"cont",children:[e.jsx("div",{className:"box",children:e.jsx("img",{src:"./images/swp.png",alt:"Aim1"})}),e.jsxs("div",{className:"content",children:[e.jsx("div",{className:"heading",children:"Software Project"}),e.jsx("div",{className:"line"}),e.jsxs("div",{className:"desp2",children:[e.jsx("div",{children:"Click on the Below Link to apply for a Software Project"}),e.jsx(t.div,{whileHover:{scale:1.2},whileTap:{scale:.8},children:e.jsx(t.a,{style:{fontSize:"22px",fontWeight:550,color:"#6c10c6"},href:"",children:"Apply"})})]})]})]})}),e.jsx("div",{className:"col-lg-4 col-md-6",children:e.jsxs(t.div,{whileHover:{scale:1.1},className:"cont",children:[e.jsx("div",{className:"box",children:e.jsx("img",{src:"./images/otp.png",alt:"Aim1"})}),e.jsxs("div",{className:"content",children:[e.jsx("div",{className:"heading",children:"Others"}),e.jsx("div",{className:"line"}),e.jsxs("div",{className:"desp2",children:[e.jsxs("div",{children:[" ","Click on the Below Link to apply for Other type of Projects"]}),e.jsx(t.div,{whileHover:{scale:1.2},whileTap:{scale:.8},children:e.jsx(t.a,{style:{fontSize:"22px",fontWeight:550,color:"#6c10c6"},href:"",children:"Apply"})})]})]})]})})]}),e.jsx("h3",{style:{fontSize:"30px",fontWeight:500,paddingTop:"70px",color:"black"},children:"If you have any innovative ideas and want to combine with TL, please fill the below form"}),e.jsx(t.button,{whileHover:{scale:1.2},whileTap:{scale:.8},className:"btn",children:"Apply"})]})]}),Te=c.section`
   padding: 9rem 0;
   .col-lg-4,
   .col-md-6 {
@@ -1814,21 +1814,22 @@ background: #6C10C6;
     margin-top: 50px;
     width: 200px;
     height: 7vh;
+    a {
+      color: #fff;
+    }
     background: #6c10c6;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 46px;
-    align-items: center;
-    text-align: center;
-
-    color: #ffffff;
-  }
-  .btn1{
     font-family: "Inter";
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 39px;
-    color:#fff;
+
+    align-items: center;
+    text-align: center;
+
+    color: #ffffff;
   }
   .circle1 {
     position: absolute;
@@ -2168,7 +2169,6 @@ background: #6C10C6;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
   }
 
   .section-message-box {
@@ -2277,10 +2277,6 @@ background: #6C10C6;
     min-height: 410px;
     max-width: 500px;
     max-height: 700px;
-    height : 70vh;
-    max-width:450px;
-    max-height:500px;
-    margin-bottom:4vh;
   }
 
   .message-warning {
@@ -2419,7 +2415,7 @@ background: #6C10C6;
 
       .map-iframe {
         width: 80vw;
-        margin-left:0vw
+        margin-left: -3vw;
       }
 
       .section-message {
@@ -2471,7 +2467,7 @@ background: #6C10C6;
         font-size: 2rem;
       }
     }
-`,De=["hink","inker","ransform"],Le=300,Fe=2e3,Pe=150,Me=()=>e.jsxs(Ke,{children:[e.jsxs("div",{className:"top",children:[e.jsxs("div",{className:"subfooter",children:[e.jsx("img",{src:"./images/Vector.svg",alt:"logo"}),e.jsx("div",{className:"line"}),e.jsxs("div",{className:"names",children:[e.jsx("div",{children:"Tinkerers' Lab"}),e.jsx("div",{children:"IIT Hyderabad"})]})]}),e.jsxs("div",{className:"tagline",children:["T",e.jsx(u,{words:De,interval:Le,typingDelay:Fe,erasingDelay:Pe})]})]}),e.jsxs("footer",{children:[e.jsxs("div",{className:"container grid grid-three-column",children:[e.jsxs("div",{className:"location",children:[e.jsx("div",{className:"bold",children:e.jsx("b",{children:"Location"})}),e.jsx("div",{children:e.jsx("p",{children:"Beside Aryabatta Hostel. Indian Institute of Technology Hyderabad, Kandi, Sangareddy, Telangana, India."})})]}),e.jsxs("div",{className:"handels",children:[e.jsx("div",{className:"bold",children:e.jsx("b",{children:"Reach us"})}),e.jsxs("div",{className:"accounts",children:[e.jsx("picture",{children:e.jsx(m,{to:"https://www.facebook.com/tl.iith/",target:"_blank",children:e.jsx("img",{src:"./images/img1.svg",alt:"facebook"})})}),e.jsx("picture",{children:e.jsx(m,{to:"https://www.instagram.com/tinkererslab_iith",target:"_blank",children:e.jsx("img",{src:"./images/img5.svg",alt:"instagram"})})}),e.jsx("picture",{children:e.jsx(m,{to:"https://www.linkedin.com/company/tinkerers-lab-iith/mycompany/",target:"_blank",children:e.jsx("img",{src:"./images/img2.svg",alt:"linkedin"})})}),e.jsx("picture",{children:e.jsx(m,{to:"https://discord.gg/cZFaRjyw",target:"_blank",children:e.jsx("img",{src:"./images/img4.svg",alt:"discord"})})}),e.jsx("picture",{children:e.jsx(m,{to:"https://twitter.com/TL_iith",target:"_blank",children:e.jsx("img",{src:"./images/img6.svg",alt:"twitter"})})}),e.jsx("picture",{children:e.jsx(m,{to:"https://github.com/TinkerersLabIITH",target:"_blank",children:e.jsx("img",{src:"./images/img3.svg",alt:"github"})})})]})]}),e.jsxs("div",{className:"contacts",children:[e.jsxs("div",{children:[e.jsx(F,{}),e.jsx("a",{href:"tel:+91 97992 98098",children:"+91 97992 98098"})]}),e.jsxs("div",{children:[e.jsx(H,{}),e.jsx("a",{href:"mailto:tl@iith.ac.in",children:"tl@iith.ac.in"})]}),e.jsxs("div",{children:[e.jsx(H,{}),e.jsx("a",{href:"mailto:ms20btech11019@iith.ac.in",children:"ms20btech11019@iith.ac.in"})]})]})]}),e.jsx("div",{className:"copyright",children:"Copyright © 2023 All Rights Reserved | IIT Hyderabad"})]})]}),Ke=c.footer`
+`,De=["hink","inker","ransform"],Le=300,Fe=2e3,Pe=150,Me=()=>e.jsxs(Ke,{children:[e.jsxs("div",{className:"top",children:[e.jsxs("div",{className:"subfooter",children:[e.jsx("img",{src:"./images/Vector.svg",alt:"logo"}),e.jsx("div",{className:"line"}),e.jsxs("div",{className:"names",children:[e.jsx("div",{children:"Tinkerers' Lab"}),e.jsx("div",{children:"IIT Hyderabad"})]})]}),e.jsxs("div",{className:"tagline",children:["T",e.jsx(u,{words:De,interval:Le,typingDelay:Fe,erasingDelay:Pe})]})]}),e.jsxs("footer",{children:[e.jsxs("div",{className:"container grid grid-three-column",children:[e.jsxs("div",{className:"location",children:[e.jsx("div",{className:"bold",children:e.jsx("b",{children:"Location"})}),e.jsx("div",{children:e.jsx("p",{children:"Beside Aryabatta Hostel. Indian Institute of Technology Hyderabad, Kandi, Sangareddy, Telangana, India."})})]}),e.jsxs("div",{className:"handels",children:[e.jsx("div",{className:"bold",children:e.jsx("b",{children:"Reach us"})}),e.jsxs("div",{className:"accounts",children:[e.jsx("picture",{children:e.jsx(m,{to:"https://www.facebook.com/tl.iith/",target:"_blank",children:e.jsx("img",{src:"./images/img1.svg",alt:"facebook"})})}),e.jsx("picture",{children:e.jsx(m,{to:"https://www.instagram.com/tinkererslab_iith",target:"_blank",children:e.jsx("img",{src:"./images/img5.svg",alt:"instagram"})})}),e.jsx("picture",{children:e.jsx(m,{to:"https://www.linkedin.com/in/tinkerers-lab-iith/",target:"_blank",children:e.jsx("img",{src:"./images/img2.svg",alt:"linkedin"})})}),e.jsx("picture",{children:e.jsx(m,{to:"https://discord.gg/cZFaRjyw",target:"_blank",children:e.jsx("img",{src:"./images/img4.svg",alt:"discord"})})}),e.jsx("picture",{children:e.jsx(m,{to:"https://github.com/TinkerersLabIITH",target:"_blank",children:e.jsx("img",{src:"./images/img3.svg",alt:"github"})})})]})]}),e.jsxs("div",{className:"contacts",children:[e.jsxs("div",{children:[e.jsx(F,{}),e.jsx("a",{href:"tel:+91 97992 98098",children:"+91 97992 98098"})]}),e.jsxs("div",{children:[e.jsx(H,{}),e.jsx("a",{href:"mailto:tl@iith.ac.in",children:"tl@iith.ac.in"})]}),e.jsxs("div",{children:[e.jsx(H,{}),e.jsx("a",{href:"mailto:ms20btech11019@iith.ac.in",children:"ms20btech11019@iith.ac.in"})]})]})]}),e.jsx("div",{className:"copyright",children:"Copyright © 2023 All Rights Reserved | IIT Hyderabad"})]})]}),Ke=c.footer`
   .top {
     border-top: 1px solid #6c10c6;
     display: flex;
@@ -2613,7 +2609,7 @@ background: #6C10C6;
       padding-left: 2rem;
     }
   }
-`,$e=P`
+`,Oe=P`
 *{
     margin: 0;
     padding: 0;
@@ -2674,4 +2670,4 @@ li{
     grid-template-columns: 1fr 1.2fr .5fr .8fr;
 }
 
-`,Oe=()=>{const i={colors:{heading:"#001824",text_heading:"#6C10C6",nav_color:"#484848",white:"#fff",gradient:"radial-gradient(40.83% 40.83% at 50% 50%, rgba(108, 16, 198, 0.5) 0%, rgba(186, 104, 200, 0) 100%) ",media:{mobile:"768px",tab:"1127px"}}};return e.jsxs(M,{theme:i,children:[e.jsx($e,{}),e.jsxs(K,{children:[e.jsx(V,{}),e.jsxs($,{children:[e.jsx(w,{path:"",element:e.jsx(te,{})}),e.jsx(w,{path:"team",element:e.jsx(le,{})}),e.jsx(w,{path:"events",element:e.jsx(ge,{})}),e.jsx(w,{path:"inventory",element:e.jsx(we,{})}),e.jsx(w,{path:"projects",element:e.jsx(ke,{})}),e.jsx(w,{path:"contacts",element:e.jsx(Re,{})})]}),e.jsx(Me,{})]})]})};O.createRoot(document.getElementById("root")).render(e.jsx(W.StrictMode,{children:e.jsx(Oe,{})}));
+`,$e=()=>{const i={colors:{heading:"#001824",text_heading:"#6C10C6",nav_color:"#484848",white:"#fff",gradient:"radial-gradient(40.83% 40.83% at 50% 50%, rgba(108, 16, 198, 0.5) 0%, rgba(186, 104, 200, 0) 100%) ",media:{mobile:"768px",tab:"1127px"}}};return e.jsxs(M,{theme:i,children:[e.jsx(Oe,{}),e.jsxs(K,{children:[e.jsx(V,{}),e.jsxs(O,{children:[e.jsx(w,{path:"",element:e.jsx(te,{})}),e.jsx(w,{path:"team",element:e.jsx(le,{})}),e.jsx(w,{path:"events",element:e.jsx(ge,{})}),e.jsx(w,{path:"inventory",element:e.jsx(we,{})}),e.jsx(w,{path:"projects",element:e.jsx(ke,{})}),e.jsx(w,{path:"contacts",element:e.jsx(Re,{})})]}),e.jsx(Me,{})]})]})};$.createRoot(document.getElementById("root")).render(e.jsx(W.StrictMode,{children:e.jsx($e,{})}));
