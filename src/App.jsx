@@ -7,7 +7,6 @@ import Events from './pages/Events';
 import Inventory from './pages/Inventory';
 import Projects from './pages/Projects';
 import Contacts from './pages/Contacts';
-import ImageScroll from './components/imagescroll';
 import Footer from './components/Footer';
 import { ThemeProvider } from 'styled-components';
 import GlobalStyle from './Globalstyle';
