@@ -1,5 +1,5 @@
 import React from 'react';
-import {HashRouter, Routes, Route } from 'react-router-dom';
+import {HashRouter, Routes, Route, BrowserRouter } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Team from './pages/Team';
@@ -26,7 +26,7 @@ const App = () => {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyle />
-      <HashRouter >
+      <BrowserRouter >
         <Navbar />
         <Routes>
           <Route path="" element={<Home />} />
@@ -37,7 +37,7 @@ const App = () => {
           <Route path="contacts" element={<Contacts />} />
         </Routes>
         <Footer />
-      </HashRouter>
+      </BrowserRouter>
     </ThemeProvider>
   );
 };
