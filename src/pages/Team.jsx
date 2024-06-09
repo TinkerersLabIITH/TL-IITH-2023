@@ -39,7 +39,7 @@ const Team = () => {
       <div className="convener">
       <div className="position">Convener</div>
         <picture>
-          <img src="./images/samyak.png" alt="pic" />
+          <img src="./images/arsh.png" alt="pic" />
         </picture>
       </div>
       <div className='circle8' />
@@ -68,52 +68,41 @@ const Team = () => {
             <div className="core"> 
             <div className="position">SOFTWARE</div>
             <ul className="name-cores">
-              <li>ARSH SRIVASTAVA</li>
-              <li>MOHAMED KAIF</li>
-              <li>AJAY KRISHNAN K</li>
-              <li>ANIKET TUKARAM</li>
-              <li>DEEPSHIKHA</li>
-              <li>KASI DHANVI</li>
-              <li>HIMANSHU SHEKHAR </li>
-              <li>ARUGONDA SRIKAR</li>
-              <li>SHASHANK SINGH</li>
-              <li>MEDIKONDA SREEKAR</li>
-              <li>MAHESH</li>
-              <li>SAI TEJA BHUKYA</li>
+              <li>ANEESH K</li>
+              <li>PRANJAL PRAJAPATI</li>
+              <li>KARAN GUPTA</li>
+              <li>AMOGH BINDAL</li>
+              <li>UTKARSH POL</li>
+              <li>PARTH DAWAR</li>
+              <li>BHUMIN HIRAPARA</li>
+              <li>JAAGRIT SINGLA</li>
             </ul>
             </div>
             <div className="core"> 
             <div className="position"> MACHINE LEARNING</div>
             <ul className="name-cores">
-              <li>HARSH GOYAL</li>
-              <li>HARSHIT PANT</li>
-              <li>TEJAL KULKARNI</li>
-              <li>RATNA KSNR</li>
-              <li>AAYUSH ADLAKHA</li>
-              <li>DIKSHANT KHANDELWAL</li>
-              <li>VISHAL VIJAY DEVADIGA</li>
-              <li>SWAPNIL BAG</li>
-              <li>SHIRSENDU PAL</li>
-              <li> NAGA GIRI VARDHAN</li>
-              <li>ISHAAN JAIN</li>
-              <li>GITANSHU ARORA</li>
+              <li>SARAN KONALA</li>
+              <li>AAYUSH GUPTA</li>
+              <li>VARAD N. MALLURWAR</li>
+              <li>ADITYA VARUN V</li>
+              <li>KAUSHAL MORANKAR</li>
+              <li>SHRAVAN BADGUJAR</li>
+              <li>ATHARVA KULKARNI</li>
+              <li>ADAMYA VERMA</li>
+              <li>HARSH SINGH</li>
             </ul>
             </div>
             <div className="core"> 
             <div className="position"> MECHATRONICS</div>
             <ul className="name-cores">
-              <li>KEVIN</li>
-              <li>PRATIK PATIL</li>
-              <li>NANJUDARDHAYA</li>
-              <li>SHRIRAM H</li>
-              <li>NEERAJ BALACHANDERN</li>
-              <li>SAFA FATHIMA RAFEEK</li>
-              <li>GUNETHRA</li>
-              <li>KAIPA VENKATA TUHIL</li>
-              <li>RAGHUVEER</li>
-              <li>MATHEW M PHILIP</li>
-              <li>PRAKHAR</li>
-              <li>ASHISH BHARDWAJ</li>
+              <li>SONIT PATIL</li>
+              <li>ABHIJIT KASHYAP</li>
+              <li>JAIDEEP NIRMAL</li>
+              <li>PRAJWAL M</li>
+              <li>SRI HARINI</li>
+              <li>SARANG GUND</li>
+              <li>TAHA MOHINUDDIN</li>
+              <li>ABHIJIT RAJ</li>
             </ul>
            
             </div>
@@ -122,39 +111,41 @@ const Team = () => {
         <div className="core"> 
             <div className="position">EVENTS & PRO</div>
             <ul className="name-cores">
-              <li>PRABHAT</li>
-              <li>MEET JAIN</li>
-              <li>PARTH KANSAGRA</li>
-              <li>AHMIK VIRANI</li>
-              <li>SHARVIL PEDAMKAR</li>
-              <li>NISARG ASLE</li>
-              <li>VEDANT SANGHAVI</li>
-              <li>UTTAM PAHARIA</li>
-              <li>SARTHAK SINGHAL</li>
-              <li>PRITESH SINGH</li>
-              <li>DEVANSH AGRAWAL</li>
+              <li>RISHABH PILLAI</li>
+              <li>SHIVA SAI PAGILLA</li>
+              <li>ANANYA DUTPAL</li>
+              <li>HARSHIT DAHERIYA</li>
+              <li>UJJWAL KALRA</li>
+              <li>ABHEY GARG</li>
+              <li>PRAJWAL BHANSE</li>
             </ul>
             </div>
             <div className="core"> 
             <div className="position"> OPERATIONS</div>
             <ul className="name-cores">
-              <li>TANISHQ BHATTACHARJEE</li>
-              <li>SAHIL KUSHWAHA</li>
-              <li>OMKAR NILKANTH</li>
-              <li>PRATHAMESH KADAM</li>
-              <li>CHANDRAHAAS</li>
-              <li>ABHAY GOYAL</li>
-              <li>SOHAM JIDDEWAR</li>
-              <li>VARUN SRIVASTAV</li>
+              <li>SHUBHAM NARE</li>
+              <li>AAKARSH VARSHNEY</li>
+              <li>NAVIN JOSHI</li>
+              <li>JATIN JAIN</li>
+              <li>PRANAY REDDY RAGI</li>
+              <li>OJAS KURUNDKAR</li>
+              <li>RAMUNI LALITH VISHNU</li>
+              <li>ARYAN GANDHI</li>
+              <li>ARYAN AGARWAL</li>
             </ul>
             </div>
             <div className="core"> 
             <div className="position"> DESIGN</div>
             <ul className="name-cores">
-              <li>PRANAY JAIN</li>
-              <li>PADMAPRABHAN A</li>
-              <li>THAVEEM</li>
-              <li>SRIJA MAILERSETTI</li>
+              <li>PARVATHY SUJITH</li>
+              <li>K.J. SHREEVEL</li>
+              <li>PRANAV KUCHECHAR</li>
+              <li>BHUMI BAGDIYA</li>
+              <li>TANVI RASHMI VINEETH</li>
+              <li>SMARON BOURAH</li>
+              <li>ARMAN MAHAYAN</li>
+              <li>SAI CHARAN GAJULA</li>
+              <li>ANUP CHAVAN</li>
               </ul>
            
             </div>
