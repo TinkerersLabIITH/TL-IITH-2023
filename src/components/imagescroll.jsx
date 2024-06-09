@@ -1,3 +1,4 @@
+import React from "react";
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 import styled from "styled-components";
@@ -16,8 +17,8 @@ const images = [
     thumbnail: "./imagescroll/imagescroll4.png",
   },
   {
-    original: "./imagescroll/imagescroll5.png",
-    thumbnail: "./imagescroll/imagescroll5.png",
+    original: "./imagescroll/imagescroll1.jpg",
+    thumbnail: "./imagescroll/imagescroll1.jpg",
   },
   {
     original: "./imagescroll/imagescroll6.png",
@@ -31,7 +32,7 @@ const images = [
 
 export default function ImgGallery() {
   return (
-    <ImageScrollStuled>
+    <ImageScrollStyled>
       <div className="contimg">
         <div className="imggal">
           <ImageGallery
@@ -43,11 +44,11 @@ export default function ImgGallery() {
           />
         </div>
       </div>
-    </ImageScrollStuled>
+    </ImageScrollStyled>
   );
 }
 
-const ImageScrollStuled = styled.section`
+const ImageScrollStyled = styled.section`
   .contimg {
     margin-top: 25rem;
     text-align: center;
@@ -58,13 +59,14 @@ const ImageScrollStuled = styled.section`
 
   .imggal {
     width: 70%;
-    margin-left: 15%;
+    margin: 0 auto;
 
     @media (max-width: 900px) {
       width: 90%;
-      margin-left: 5%;
+      margin: 0 auto;
     }
   }
+
   .image-gallery-slide .image-gallery-image {
     border-radius: 60px;
   }

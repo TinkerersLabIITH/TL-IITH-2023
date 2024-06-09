@@ -1,17 +1,25 @@
 import { ClassNames } from '@emotion/react';
-import React,{useState} from 'react'
+import React, { useState } from 'react'
 import styled from "styled-components";
 import Cybercon from "../images/cyberevent.png"
 import TinkeringEp2 from "../images/tinkering101ep2.png"
 import TinkeringEp1 from "../images/tinkering101ep1.png"
 import TinkerersNight from "../images/tinkerersnight.png"
+import tn from "../images/tinkerersnight2024.png"
+import orientation from "../images/orientation.jpg"
+import micromouse from "../images/micromouse.png"
+import treasure from "../images/treasure.jpg"
+import keynote from "../images/keynote.jpg"
+import workshop from "../images/workshop.jpg"
+import thrust from "../images/thrust.jpg"
 import WordAnimation from "../components/homeanimate";
 import { motion } from "framer-motion";
 const Events = () => {
   const words = ["Think", "Tinker", "Transform"];
-const interval = 200; 
-const typingDelay = 2000; 
-const erasingDelay = 100;
+  const interval = 200;
+  const typingDelay = 2000;
+  const erasingDelay = 100;
+
   const divStyle = {
     backgroundImage: `url(${Cybercon})`,
     transform: 'translate3d(0, 0, 0)',
@@ -21,9 +29,86 @@ const erasingDelay = 100;
     backgroundPosition: 'center',
     transition: 'filter 0.5s ease',
     aspectRatio: '1.72',
-    borderRadius:'67.5px'
+    borderRadius: '67.5px'
   }
-  const EP2Image={
+  const tnImg = {
+    backgroundImage: `url(${tn})`,
+    transform: 'translate3d(0, 0, 0)',
+    position: 'relative',
+    width: '100%',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    transition: 'filter 0.5s ease',
+    aspectRatio: '1.72',
+    borderRadius: '67.5px'
+  }
+  const workshopImg = {
+    backgroundImage: `url(${workshop})`,
+    transform: 'translate3d(0, 0, 0)',
+    position: 'relative',
+    width: '100%',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    transition: 'filter 0.5s ease',
+    aspectRatio: '1.72',
+    borderRadius: '67.5px'
+  }
+  const thrustImg = {
+    backgroundImage: `url(${thrust})`,
+    transform: 'translate3d(0, 0, 0)',
+    position: 'relative',
+    width: '100%',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    transition: 'filter 0.5s ease',
+    aspectRatio: '1.72',
+    borderRadius: '67.5px'
+  }
+  const keyImg = {
+    backgroundImage: `url(${keynote})`,
+    transform: 'translate3d(0, 0, 0)',
+    position: 'relative',
+    width: '100%',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    transition: 'filter 0.5s ease',
+    aspectRatio: '1.72',
+    borderRadius: '67.5px'
+  }
+  const thImage = {
+    backgroundImage: `url(${treasure})`,
+    transform: 'translate3d(0, 0, 0)',
+    position: 'relative',
+    width: '100%',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    transition: 'filter 0.5s ease',
+    aspectRatio: '1.72',
+    borderRadius: '67.5px'
+  }
+  const micromouseImg = {
+    backgroundImage: `url(${micromouse})`,
+    transform: 'translate3d(0, 0, 0)',
+    position: 'relative',
+    width: '100%',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    transition: 'filter 0.5s ease',
+    aspectRatio: '1.72',
+    borderRadius: '67.5px'
+  }
+  const orImage = {
+    backgroundImage: `url(${orientation})`,
+    transform: 'translate3d(0, 0, 0)',
+    position: 'relative',
+    width: '100%',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    transition: 'filter 0.5s ease',
+    aspectRatio: '1.72',
+    borderRadius: '67.5px'
+  }
+  const EP2Image = {
     backgroundImage: `url(${TinkeringEp2})`,
     transform: 'translate3d(0, 0, 0)',
     position: 'relative',
@@ -32,9 +117,9 @@ const erasingDelay = 100;
     backgroundPosition: 'center',
     transition: 'filter 0.5s ease',
     aspectRatio: '1.72',
-    borderRadius:'67.5px'
+    borderRadius: '67.5px'
   }
-  const EP1Image={
+  const EP1Image = {
     backgroundImage: `url(${TinkeringEp1})`,
     transform: 'translate3d(0, 0, 0)',
     position: 'relative',
@@ -43,9 +128,9 @@ const erasingDelay = 100;
     backgroundPosition: 'center',
     transition: 'filter 0.5s ease',
     aspectRatio: '1.72',
-    borderRadius:'67.5px'
+    borderRadius: '67.5px'
   }
-  const TNightIMG={
+  const TNightIMG = {
     backgroundImage: `url(${TinkerersNight})`,
     transform: 'translate3d(0, 0, 0)',
     position: 'relative',
@@ -54,99 +139,199 @@ const erasingDelay = 100;
     backgroundPosition: 'center',
     transition: 'filter 0.5s ease',
     aspectRatio: '1.72',
-    borderRadius:'67.5px'
+    borderRadius: '67.5px'
   }
   return (
     <EventWrapper>
       <motion.div whileHover={{ scale: 1.5 }} className="circle1" />
-       <motion.div whileHover={{ scale: 1.5 }} className="circle2" />
-       <motion.div whileHover={{ scale: 1.5 }} className="circle3" />
-       <motion.div whileHover={{ scale: 1.5 }} className="circle4" />
-       <motion.div whileHover={{ scale: 1.5 }} className="circle5" />
+      <motion.div whileHover={{ scale: 1.5 }} className="circle2" />
+      <motion.div whileHover={{ scale: 1.5 }} className="circle3" />
+      <motion.div whileHover={{ scale: 1.5 }} className="circle4" />
+      <motion.div whileHover={{ scale: 1.5 }} className="circle5" />
       <div className="circle6" />
-      <div className='circle7'/>
-      <div className='circle8'/>
-      <div className='circle9'/>
-      <div className='circle10'/>
-      <div className='circle11'/>
-      <div className='circle12'/>
-      <div className='circle13'/>
-      <div className='circle14'/>
-      <div className='circle15'/>
-      <div className='circle16'/>
-      <div className='circle17'/>
-        <div className="container grid grid-two-column">
+      <div className='circle7' />
+      <div className='circle8' />
+      <div className='circle9' />
+      <div className='circle10' />
+      <div className='circle11' />
+      <div className='circle12' />
+      <div className='circle13' />
+      <div className='circle14' />
+      <div className='circle15' />
+      <div className='circle16' />
+      <div className='circle17' />
+      <div className="container grid grid-two-column">
         <div className="section-hero-data">
           <h2 className='text-white hero-heading'>Events</h2>
           <h3 className='hero-tag'>Tinkerers’ Lab IITH</h3>
           <h4 className="text-white hero-bottom">  <WordAnimation
-                words={words}
-                interval={interval}
-                typingDelay={typingDelay}
-                erasingDelay={erasingDelay}
-              /></h4>
+            words={words}
+            interval={interval}
+            typingDelay={typingDelay}
+            erasingDelay={erasingDelay}
+          /></h4>
         </div>
         <div className="section-hero-image">
           <picture>
-            <img src="./images/Event.svg" alt="image" className='hero-img'/>
+            <img src="./images/Event.svg" alt="image" className='hero-img' />
           </picture>
         </div>
       </div>
-    
-  <div className="flex-container">
-    <div className="flex-item">
-      <div className="image">
-      <div className='Effect' style={divStyle}>
-      <div className='Content'>
-             <p>PRO and Events of Tinkerers’ Lab is the face of our lab. It handles relations with contingents and clubs across the country along with some of the finest professors and incubators to go along with. The PRO end of the lab will target to collaborate with such bodies and other companies this year to set up mini R&D for such bodies in the lab. The lab will also deal with clubs inside the college which will be a fantastic opportunity to interact with Alumni and Seniors. </p>
+
+      <div className="flex-container">
+
+        <div className="flex-item">
+          <div className="image">
+            <div className='Effect' style={thrustImg}>
+              <div className='Content'>
+                <p>PRO and Events of Tinkerers’ Lab is the face of our lab. It handles relations with contingents and clubs across the country along with some of the finest professors and incubators to go along with. The PRO end of the lab will target to collaborate with such bodies and other companies this year to set up mini R&D for such bodies in the lab. The lab will also deal with clubs inside the college which will be a fantastic opportunity to interact with Alumni and Seniors. </p>
+              </div>
+            </div>
+            <div className="Right-Img">
+              <div className="image-name">Thrust 2024</div>
+              <div className="decoration"></div>
+            </div>
           </div>
+        </div>
+
+        <div className="flex-item">
+          <div className="image">
+            <div className='Effect' style={workshopImg}>
+              <div className='Content'>
+                <p>PRO and Events of Tinkerers’ Lab is the face of our lab. It handles relations with contingents and clubs across the country along with some of the finest professors and incubators to go along with. The PRO end of the lab will target to collaborate with such bodies and other companies this year to set up mini R&D for such bodies in the lab. The lab will also deal with clubs inside the college which will be a fantastic opportunity to interact with Alumni and Seniors. </p>
+              </div>
+            </div>
+            <div className="Left-Img">
+              <div className="image-name">Workshops</div>
+              <div className="decoration"></div>
+            </div>
           </div>
-          <div className="Left-Img">
-        <div className="image-name">CyberCon-2023</div>
-        <div className="decoration"></div>
+        </div>
+
+        <div className="flex-item">
+          <div className="image">
+            <div className='Effect' style={tnImg}>
+              <div className='Content'>
+                <p>PRO and Events of Tinkerers’ Lab is the face of our lab. It handles relations with contingents and clubs across the country along with some of the finest professors and incubators to go along with. The PRO end of the lab will target to collaborate with such bodies and other companies this year to set up mini R&D for such bodies in the lab. The lab will also deal with clubs inside the college which will be a fantastic opportunity to interact with Alumni and Seniors. </p>
+              </div>
+            </div>
+            <div className="Right-Img">
+              <div className="image-name">Tinkerers' Night</div>
+              <div className="decoration"></div>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex-item">
+          <div className="image">
+            <div className='Effect' style={keyImg}>
+              <div className='Content'>
+                <p>PRO and Events of Tinkerers’ Lab is the face of our lab. It handles relations with contingents and clubs across the country along with some of the finest professors and incubators to go along with. The PRO end of the lab will target to collaborate with such bodies and other companies this year to set up mini R&D for such bodies in the lab. The lab will also deal with clubs inside the college which will be a fantastic opportunity to interact with Alumni and Seniors. </p>
+              </div>
+            </div>
+            <div className="Left-Img">
+              <div className="image-name">Thrust- Keynote Talk</div>
+              <div className="decoration"></div>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex-item">
+          <div className="image">
+            <div className='Effect' style={thImage}>
+              <div className='Content'>
+                <p>PRO and Events of Tinkerers’ Lab is the face of our lab. It handles relations with contingents and clubs across the country along with some of the finest professors and incubators to go along with. The PRO end of the lab will target to collaborate with such bodies and other companies this year to set up mini R&D for such bodies in the lab. The lab will also deal with clubs inside the college which will be a fantastic opportunity to interact with Alumni and Seniors. </p>
+              </div>
+            </div>
+            <div className="Right-Img">
+              <div className="image-name">Treasure Hunt</div>
+              <div className="decoration"></div>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex-item">
+          <div className="image">
+            <div className='Effect' style={micromouseImg}>
+              <div className='Content'>
+                <p>PRO and Events of Tinkerers’ Lab is the face of our lab. It handles relations with contingents and clubs across the country along with some of the finest professors and incubators to go along with. The PRO end of the lab will target to collaborate with such bodies and other companies this year to set up mini R&D for such bodies in the lab. The lab will also deal with clubs inside the college which will be a fantastic opportunity to interact with Alumni and Seniors. </p>
+              </div>
+            </div>
+            <div className="Left-Img">
+              <div className="image-name">Micromouse</div>
+              <div className="decoration"></div>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex-item">
+          <div className="image">
+            <div className='Effect' style={orImage}>
+              <div className='Content'>
+                <p>PRO and Events of Tinkerers’ Lab is the face of our lab. It handles relations with contingents and clubs across the country along with some of the finest professors and incubators to go along with. The PRO end of the lab will target to collaborate with such bodies and other companies this year to set up mini R&D for such bodies in the lab. The lab will also deal with clubs inside the college which will be a fantastic opportunity to interact with Alumni and Seniors. </p>
+              </div>
+            </div>
+            <div className="Right-Img">
+              <div className="image-name">Orientation-2023</div>
+              <div className="decoration"></div>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex-item">
+          <div className="image">
+            <div className='Effect' style={divStyle}>
+              <div className='Content'>
+                <p>PRO and Events of Tinkerers’ Lab is the face of our lab. It handles relations with contingents and clubs across the country along with some of the finest professors and incubators to go along with. The PRO end of the lab will target to collaborate with such bodies and other companies this year to set up mini R&D for such bodies in the lab. The lab will also deal with clubs inside the college which will be a fantastic opportunity to interact with Alumni and Seniors. </p>
+              </div>
+            </div>
+            <div className="Left-Img">
+              <div className="image-name">CyberCon-2023</div>
+              <div className="decoration"></div>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex-item">
+          <div className="image">
+            <div className='Effect' style={EP2Image}>
+              <div className='Content'>
+                <p>PRO and Events of Tinkerers’ Lab is the face of our lab. It handles relations with contingents and clubs across the country along with some of the finest professors and incubators to go along with. The PRO end of the lab will target to collaborate with such bodies and other companies this year to set up mini R&D for such bodies in the lab. The lab will also deal with clubs inside the college which will be a fantastic opportunity to interact with Alumni and Seniors. </p>
+              </div>
+            </div>
+            <div className='Right-Img'>
+              <div className="image-name-2">Tinkering-101-Episode-02</div>
+              <div className="decoration-2"></div>
+            </div>
+          </div>
+        </div>
+        <div className="flex-item">
+          <div className="image">
+            <div className='Effect' style={EP1Image}>
+              <div className='Content'>
+                <p>PRO and Events of Tinkerers’ Lab is the face of our lab. It handles relations with contingents and clubs across the country along with some of the finest professors and incubators to go along with. The PRO end of the lab will target to collaborate with such bodies and other companies this year to set up mini R&D for such bodies in the lab. The lab will also deal with clubs inside the college which will be a fantastic opportunity to interact with Alumni and Seniors. </p>
+              </div>
+            </div>
+            <div className="Left-Img">
+              <div className="image-name-3">Tinkering-101-Episode-01</div>
+              <div className="decoration-3"></div>
+            </div>
+          </div>
+        </div>
+        <div className="flex-item">
+          <div className="image">
+            <div className='Effect' style={TNightIMG}>
+              <div className='Content'>
+                <p>PRO and Events of Tinkerers’ Lab is the face of our lab. It handles relations with contingents and clubs across the country along with some of the finest professors and incubators to go along with. The PRO end of the lab will target to collaborate with such bodies and other companies this year to set up mini R&D for such bodies in the lab. The lab will also deal with clubs inside the college which will be a fantastic opportunity to interact with Alumni and Seniors.</p>
+              </div>
+            </div>
+            <div className='Right-Img'>
+              <div className="image-name-4">Tinkerers-Night</div>
+              <div className="decoration-4"></div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    <div className="flex-item">
-      <div className="image">
-      <div className='Effect' style={EP2Image}>
-      <div className='Content'>
-             <p>PRO and Events of Tinkerers’ Lab is the face of our lab. It handles relations with contingents and clubs across the country along with some of the finest professors and incubators to go along with. The PRO end of the lab will target to collaborate with such bodies and other companies this year to set up mini R&D for such bodies in the lab. The lab will also deal with clubs inside the college which will be a fantastic opportunity to interact with Alumni and Seniors. </p>
-          </div>
-          </div>
-          <div className='Right-Img'>
-        <div className="image-name-2">Tinkering-101-Episode-02</div>
-        <div className="decoration-2"></div>
-        </div>
-      </div>
-    </div>
-    <div className="flex-item">
-      <div className="image">
-      <div className='Effect' style={EP1Image}>
-      <div className='Content'>
-             <p>PRO and Events of Tinkerers’ Lab is the face of our lab. It handles relations with contingents and clubs across the country along with some of the finest professors and incubators to go along with. The PRO end of the lab will target to collaborate with such bodies and other companies this year to set up mini R&D for such bodies in the lab. The lab will also deal with clubs inside the college which will be a fantastic opportunity to interact with Alumni and Seniors. </p>
-          </div>
-          </div>
-          <div className="Left-Img">
-        <div className="image-name-3">Tinkering-101-Episode-01</div>
-        <div className="decoration-3"></div>
-        </div>
-      </div>
-    </div>
-    <div className="flex-item">
-      <div className="image">
-      <div className='Effect' style={TNightIMG}>
-      <div className='Content'>
-             <p>PRO and Events of Tinkerers’ Lab is the face of our lab. It handles relations with contingents and clubs across the country along with some of the finest professors and incubators to go along with. The PRO end of the lab will target to collaborate with such bodies and other companies this year to set up mini R&D for such bodies in the lab. The lab will also deal with clubs inside the college which will be a fantastic opportunity to interact with Alumni and Seniors.</p>
-          </div>
-          </div>
-          <div className='Right-Img'>
-        <div className="image-name-4">Tinkerers-Night</div>
-        <div className="decoration-4"></div>
-        </div>
-      </div>
-    </div>
-  </div>
     </EventWrapper>
   )
 }

@@ -18,17 +18,17 @@ const Team = () => {
       <div className='circle5' />
       <div className="container grid grid-two-column" id="container">
         <div className="section-hero-data">
-          <h2 className='hero-heading'>Our Team</h2>
+          <h2 className='text-white hero-heading'>Our Team</h2>
           <h3 className='hero-tag'>Tinkerers' Lab IITH</h3>
-           <div className="hero-bottom">
-              <WordAnimation
-                words={words}
-                interval={interval}
-                typingDelay={typingDelay}
-                erasingDelay={erasingDelay}
-              />
-            </div> 
-        
+          <div className="text-white hero-bottom">
+            <WordAnimation
+              words={words}
+              interval={interval}
+              typingDelay={typingDelay}
+              erasingDelay={erasingDelay}
+            />
+          </div>
+
         </div>
         <div className="section-hero-image">
           <picture>
@@ -37,42 +37,84 @@ const Team = () => {
         </div>
       </div>
       <div className="convener">
-      <div className="position">Convener</div>
+        <div className="text-white position">CONVENER</div>
         <picture>
-          <img src="./images/arsh.png" alt="pic" />
+          <img src="./images/arsh.svg" alt="pic" />
         </picture>
+        <div className='text-white text-[3rem]'>ARSH ARORA</div>
       </div>
       <div className='circle8' />
       <div className='circle9' />
-      
+
       <div className="secretaries">
-        <div className="position">Secretaries</div>
-        <div className='img-secs'>
-        <picture><img src="./images/aditya.png" alt="pic" /></picture>
-        <picture><img src="./images/prabhat.png" alt="pic" /></picture>
-        <picture><img src="./images/himanshu.png" alt="pic" /></picture>
-        <picture><img src="./images/aayush.png" alt="pic" /></picture>
+        <div className="text-white position">HEADS</div>
+        <div className='flex flex-row gap-10 img-secs'>
+          <div className='flex flex-col justify-center'>
+            <picture><img src="./images/aditya.svg" alt="pic" /></picture>
+            <div className='text-white text-[3rem] text-center'>Aditya Garg</div>
+            <div className='text-white text-[2rem] text-center'>MACHINE LEARNING</div>
+          </div>
+          <div className='flex flex-col justify-center'>
+            <picture><img src="./images/prabhat.svg" alt="pic" /></picture>
+            <div className='text-white text-[3rem] text-center'>Prabhat Kumar</div>
+            <div className='text-white text-[2rem] text-center text-wrap'>MANAGEMENT<br /> AFFAIRS AND PRO</div>
+          </div>
+          <div className='flex flex-col justify-center'>
+            <picture><img src="./images/himanshu.svg" alt="pic" /></picture>
+            <div className='text-white text-[3rem] text-center'>Himanshu S.</div>
+            <div className='text-white text-[2rem] text-center'>SOFTWARE DEVELOPMENT</div>
+          </div>
+          <div className='flex flex-col justify-center'>
+            <picture><img src="./images/ayush.svg" alt="pic" /></picture>
+            <div className='text-white text-[3rem] text-center'>Aayush Adlakha</div>
+            <div className='text-white text-[2rem] text-center'>TECHNICAL AFFAIRS</div>
+          </div>
+
         </div>
-        <div className="img-secs">
-        <picture><img src="./images/shreeram.png" alt="pic" /></picture>
-        <picture><img src="./images/nisarg.png" alt="pic" /></picture>
-        <picture><img src="./images/thameem.png" alt="pic" /></picture>
-        <picture><img src="./images/sarthak.png" alt="pic" /></picture>
+        <div className="flex flex-row gap-10 img-secs">
+          <div className='flex flex-col justify-center'>
+            <picture><img src="./images/shriram.svg" alt="pic" /></picture>
+            <div className='text-white text-[3rem] text-center'>Shriram Hari</div>
+            <div className='text-white text-[2rem] text-center'>MECHATRONICS</div>
+          </div>
+          <div className='flex flex-col justify-center'>
+            <picture><img src="./images/nisarg.svg" alt="pic" /></picture>
+            <div className='text-white text-[3rem] text-center'>Nisarg Dodia</div>
+            <div className='text-white text-[2rem] text-center'>DESIGN</div>
+          </div>
+          <div className='flex flex-col justify-center'>
+            <picture><img src="./images/thameem.svg" alt="pic" /></picture>
+            <div className='text-white text-[3rem] text-center'>Thameem Rasheed</div>
+            <div className='text-white text-[2rem] text-center'>DESIGN</div>
+          </div>
+          <div className='flex flex-col justify-center'>
+            <picture><img src="./images/sarthak.svg" alt="pic" /></picture>
+            <div className='text-white text-[3rem] text-center'>Sarthak Singhal</div>
+            <div className='text-white text-[2rem] text-center'>CORPORATE<br /> NETWORKING & GROWTH</div>
+          </div>
         </div>
-        <div className="img-secs">
-        <picture><img src="./images/anuj.png" alt="pic" /></picture>
-        <picture><img src="./images/varun.png" alt="pic" /></picture>
+        <div className="flex flex-row gap-10 img-secs">
+          <div className='flex flex-col justify-center'>
+            <picture><img src="./images/anuj.svg" alt="pic" /></picture>
+            <div className='text-white text-[3rem] text-center'>Anuj Agarwal</div>
+            <div className='text-white text-[2rem] text-center'>OPERATIONS</div>
+          </div>
+          <div className='flex flex-col justify-center'>
+            <picture><img src="./images/varun.svg" alt="pic" /></picture>
+            <div className='text-white text-[3rem] text-center'>Varun Srivastava</div>
+            <div className='text-white text-[2rem] text-center'>OPERATIONS</div>
+          </div>
         </div>
       </div>
       <div className='circle6' />
       <div className='circle7' />
-      
+
       <div className="cores">
-        <div className="cores-position">Cores</div>
+        <div className="text-white cores-position">CORES</div>
         <div className="cores-section">
-            <div className="core"> 
-            <div className="position">SOFTWARE</div>
-            <ul className="name-cores">
+          <div className="core">
+            <div className="text-white position">SOFTWARE</div>
+            <ul className="text-white name-cores">
               <li>ANEESH K</li>
               <li>PRANJAL PRAJAPATI</li>
               <li>KARAN GUPTA</li>
@@ -82,10 +124,10 @@ const Team = () => {
               <li>BHUMIN HIRAPARA</li>
               <li>JAAGRIT SINGLA</li>
             </ul>
-            </div>
-            <div className="core"> 
-            <div className="position"> MACHINE LEARNING</div>
-            <ul className="name-cores">
+          </div>
+          <div className="core">
+            <div className="text-white position"> MACHINE LEARNING</div>
+            <ul className="text-white name-cores">
               <li>SARAN KONALA</li>
               <li>AAYUSH GUPTA</li>
               <li>VARAD N. MALLURWAR</li>
@@ -96,10 +138,10 @@ const Team = () => {
               <li>ADAMYA VERMA</li>
               <li>HARSH SINGH</li>
             </ul>
-            </div>
-            <div className="core"> 
-            <div className="position"> MECHATRONICS</div>
-            <ul className="name-cores">
+          </div>
+          <div className="core">
+            <div className="text-white position"> MECHATRONICS</div>
+            <ul className="text-white name-cores">
               <li>SONIT PATIL</li>
               <li>ABHIJIT KASHYAP</li>
               <li>JAIDEEP NIRMAL</li>
@@ -109,13 +151,13 @@ const Team = () => {
               <li>TAHA MOHINUDDIN</li>
               <li>ABHIJIT RAJ</li>
             </ul>
-           
-            </div>
+
+          </div>
         </div>
         <div className="cores-section">
-        <div className="core"> 
-            <div className="position"> DESIGN</div>
-            <ul className="name-cores">
+          <div className="core">
+            <div className="text-white position"> DESIGN</div>
+            <ul className="text-white name-cores">
               <li>PARVATHY SUJITH</li>
               <li>K.J. SHREEVEL</li>
               <li>PRANAV KUCHECHAR</li>
@@ -125,12 +167,12 @@ const Team = () => {
               <li>ARMAN MAHAYAN</li>
               <li>SAI CHARAN GAJULA</li>
               <li>ANUP CHAVAN</li>
-              </ul>
-           
-            </div>
-        <div className="core"> 
-            <div className="position">EVENTS & PRO</div>
-            <ul className="name-cores">
+            </ul>
+
+          </div>
+          <div className="core">
+            <div className="text-white position">EVENTS & PRO</div>
+            <ul className="text-white name-cores">
               <li>RISHABH PILLAI</li>
               <li>SHIVA SAI PAGILLA</li>
               <li>ANANYA DUTPAL</li>
@@ -139,10 +181,10 @@ const Team = () => {
               <li>ABHEY GARG</li>
               <li>PRAJWAL BHANSE</li>
             </ul>
-            </div>
-            <div className="core"> 
-            <div className="position"> CORPORATE<br>NETWORKING & GROWTH</div>
-            <ul className="name-cores">
+          </div>
+          <div className="core">
+            <div className="text-white position"> CORPORATE<br />NETWORKING & GROWTH</div>
+            <ul className="text-white name-cores">
               <li>ANUSHKA AGARWAL</li>
               <li>AADITYA LAD</li>
               <li>ANKUR KALYAN</li>
@@ -151,15 +193,15 @@ const Team = () => {
               <li>SHUBHAM DADHICH</li>
               <li>LABDHI ANAND</li>
               <li>HANZALA AKHTER</li>
-              </ul>
-           
-            </div>
+            </ul>
 
+          </div>
 
-          <div className="cores-section">
-            <div className="core"> 
-            <div className="position"> OPERATIONS</div>
-            <ul className="name-cores">
+        </div>
+        <div className="cores-section">
+          <div className="core">
+            <div className="text-white position"> OPERATIONS</div>
+            <ul className="text-white name-cores">
               <li>SHUBHAM NARE</li>
               <li>AAKARSH VARSHNEY</li>
               <li>NAVIN JOSHI</li>
@@ -170,11 +212,10 @@ const Team = () => {
               <li>ARYAN GANDHI</li>
               <li>ARYAN AGARWAL</li>
             </ul>
-            </div>
-            </div>
+          </div>
         </div>
-         
-        
+
+
       </div>
     </TeamWrapper>
   )
@@ -292,7 +333,7 @@ const TeamWrapper = styled.section`
       padding: 2rem 0;
       color: #000;
       text-align: center;
-      font-size: 48px;
+      font-size: 3rem;
       font-family: Inter;
       font-weight: 700;
       // animation: fadeIn 5s;
