@@ -48,15 +48,20 @@ const Team = () => {
       <div className="secretaries">
         <div className="position">Secretaries</div>
         <div className='img-secs'>
-        <picture><img src="./images/jarpula.png" alt="pic" /></picture>
-        <picture><img src="./images/abhay.png" alt="pic" /></picture>
-        <picture><img src="./images/sahoo.png" alt="pic" /></picture>
-        <picture><img src="./images/suddho.png" alt="pic" /></picture>
+        <picture><img src="./images/aditya.png" alt="pic" /></picture>
+        <picture><img src="./images/prabhat.png" alt="pic" /></picture>
+        <picture><img src="./images/himanshu.png" alt="pic" /></picture>
+        <picture><img src="./images/aayush.png" alt="pic" /></picture>
         </div>
         <div className="img-secs">
-        <picture><img src="./images/arthi.png" alt="pic" /></picture>
-        <picture><img src="./images/arsh.png" alt="pic" /></picture>
-        <picture><img src="./images/anand.png" alt="pic" /></picture>
+        <picture><img src="./images/shreeram.png" alt="pic" /></picture>
+        <picture><img src="./images/nisarg.png" alt="pic" /></picture>
+        <picture><img src="./images/thameem.png" alt="pic" /></picture>
+        <picture><img src="./images/sarthak.png" alt="pic" /></picture>
+        </div>
+        <div className="img-secs">
+        <picture><img src="./images/anuj.png" alt="pic" /></picture>
+        <picture><img src="./images/varun.png" alt="pic" /></picture>
         </div>
       </div>
       <div className='circle6' />
@@ -109,6 +114,21 @@ const Team = () => {
         </div>
         <div className="cores-section">
         <div className="core"> 
+            <div className="position"> DESIGN</div>
+            <ul className="name-cores">
+              <li>PARVATHY SUJITH</li>
+              <li>K.J. SHREEVEL</li>
+              <li>PRANAV KUCHECHAR</li>
+              <li>BHUMI BAGDIYA</li>
+              <li>TANVI RASHMI VINEETH</li>
+              <li>SMARON BOURAH</li>
+              <li>ARMAN MAHAYAN</li>
+              <li>SAI CHARAN GAJULA</li>
+              <li>ANUP CHAVAN</li>
+              </ul>
+           
+            </div>
+        <div className="core"> 
             <div className="position">EVENTS & PRO</div>
             <ul className="name-cores">
               <li>RISHABH PILLAI</li>
@@ -120,6 +140,23 @@ const Team = () => {
               <li>PRAJWAL BHANSE</li>
             </ul>
             </div>
+            <div className="core"> 
+            <div className="position"> CORPORATE<br>NETWORKING & GROWTH</div>
+            <ul className="name-cores">
+              <li>ANUSHKA AGARWAL</li>
+              <li>AADITYA LAD</li>
+              <li>ANKUR KALYAN</li>
+              <li>SARVESH GOYAL</li>
+              <li>ATHARVA LOHARE</li>
+              <li>SHUBHAM DADHICH</li>
+              <li>LABDHI ANAND</li>
+              <li>HANZALA AKHTER</li>
+              </ul>
+           
+            </div>
+
+
+          <div className="cores-section">
             <div className="core"> 
             <div className="position"> OPERATIONS</div>
             <ul className="name-cores">
@@ -134,20 +171,6 @@ const Team = () => {
               <li>ARYAN AGARWAL</li>
             </ul>
             </div>
-            <div className="core"> 
-            <div className="position"> DESIGN</div>
-            <ul className="name-cores">
-              <li>PARVATHY SUJITH</li>
-              <li>K.J. SHREEVEL</li>
-              <li>PRANAV KUCHECHAR</li>
-              <li>BHUMI BAGDIYA</li>
-              <li>TANVI RASHMI VINEETH</li>
-              <li>SMARON BOURAH</li>
-              <li>ARMAN MAHAYAN</li>
-              <li>SAI CHARAN GAJULA</li>
-              <li>ANUP CHAVAN</li>
-              </ul>
-           
             </div>
         </div>
          
