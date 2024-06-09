@@ -13,7 +13,7 @@ const erasingDelay = 150; // Delay between each erased letter
 const Footer = () => {
   return (
     <MainFooter>
-      <div className="top">
+      {/* <div className="top">
         <div className="subfooter">
           <img src="./images/Vector.svg" alt="logo" />
           <div className="line"></div>
@@ -31,11 +31,11 @@ const Footer = () => {
             erasingDelay={erasingDelay}
           />
         </div>
-      </div>
-      <footer>
-        <div className="container grid grid-three-column">
+      </div> */}
+      <footer className="bg-[#211F24]">
+        {/* <div className="container grid grid-three-column">
           <div className="location">
-            <div className="bold">
+            <div className="text-white">
               <b>Location</b>
             </div>
             <div>
@@ -100,9 +100,44 @@ const Footer = () => {
               <a href="mailto:ms20btech11019@iith.ac.in">ms20btech11019@iith.ac.in</a>
             </div>
           </div>
+        </div> */}
+        <div className="w-screen flex flex-row justify-between px-[8rem]">
+          <div className="flex flex-col w-[40rem]">
+            <div className="text-[#C890FF] font-bold text-[3rem]">
+              Tinkerers' Laboratory
+            </div>
+            <div className="text-white text-[1.5rem]">
+              Beside Aryabatta Hostel,<br />
+              Indian Institute of Technology Hyderabad,<br />
+              Kandi, Sangareddy,<br />
+              Telangana, India
+            </div>
+          </div>
+          <div className="flex flex-col w-[30rem] gap-8">
+            <div className="flex flex-row justify-between h-[2rem]">
+              <img src="./images/Instagram.svg" />
+              <img src="./images/Facebook.svg" />
+              <img src="./images/LinkedIn.svg" />
+              <img src="./images/Discord.svg" />
+              <img src="./images/Twitter.svg" />
+            </div>
+            <div className="flex flex-row gap-8">
+              <img src="./images/mail.svg" alt="" />
+              <div className="text-white text-[1.5rem] underline underline-offset-4">ce22btech11040@iith.ac.in</div>
+            </div>
+            <div className="flex flex-row gap-8">
+              <img src="./images/mail.svg" alt="" />
+              <div className="text-white text-[1.5rem] underline underline-offset-4">tl@campus.iith.ac.in</div>
+            </div>
+            <div className="flex flex-row gap-8">
+              <img src="./images/call.svg" alt="" />
+              <div className="text-white text-[1.5rem] underline underline-offset-4">+91 95410 23301</div>
+            </div>
+
+          </div>
         </div>
-        <div className="copyright">
-          Copyright © 2023 All Rights Reserved | IIT Hyderabad
+        <div className="copyright text-[#C890FF]">
+          © 2023-2024 All rights reserved | IIT Hyderabad
         </div>
       </footer>
     </MainFooter>
@@ -163,8 +198,8 @@ const MainFooter = styled.footer`
   .copyright {
     padding-top: 5rem;
     padding-bottom: 2rem;
-    color: #6c10c6;
-    font-size: 20px;
+    color: #C890FF;
+    font-size: 1.5rem;
     font-family: Inter;
     text-align: center;
   }

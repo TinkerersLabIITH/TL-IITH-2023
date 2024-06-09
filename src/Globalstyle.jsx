@@ -8,6 +8,11 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Inter', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
+html, body {
+    background: #000000;
+    width: 100%;
+    height: 100%;
+}
 html{
     font-size: 62.5%;
     overflow-x: hidden;
