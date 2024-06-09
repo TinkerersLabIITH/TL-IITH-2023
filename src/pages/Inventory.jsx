@@ -23,12 +23,12 @@ const Inventory = () => {
               initial={{ opacity: 0, y: "50%" }}
               animate={{ opacity: 1, y: 0, transition: { duration: 0.5 } }}
               transition={{ duration: 1 }}
-              className="hero-heading"
+              className="text-white hero-heading"
             >
               Inventory
             </motion.div>
             <h3 className="hero-tag">Tinkerers’ Lab IITH</h3>
-            <h4 className="hero-bottom">
+            <h4 className="text-white hero-bottom">
               <WordAnimation
                 words={words}
                 interval={interval}
@@ -51,7 +51,7 @@ const Inventory = () => {
           </div>
         </div>
         <div className="wip">
-          <h2>Work in Progress</h2>
+          <h2 className="text-white">Work in Progress</h2>
           <picture>
             <img src="./images/wip1.png" alt="image" className="hero-img" />
           </picture>

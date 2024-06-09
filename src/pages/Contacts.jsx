@@ -192,7 +192,7 @@ const Contacts = () => {
 
   }
   return (
-    <ContactsWrapper >
+    <ContactsWrapper className='bg-white'>
       <div className="ellipse1" />
       <div className="ellipse2"></div>
       <div className='circle1' />

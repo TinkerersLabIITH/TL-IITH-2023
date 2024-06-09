@@ -22,12 +22,12 @@ const Projects = () => {
               initial={{ opacity: 0, y: "50%" }}
               animate={{ opacity: 1, y: 0, transition: { duration: 0.5 } }}
               transition={{ duration: 1 }}
-              className="hero-heading"
+              className="text-white hero-heading"
             >
               Projects
             </motion.div>
             <h3 className="hero-tag">Tinkerers’ Lab IITH</h3>
-            <h4 className="hero-bottom">
+            <h4 className="text-white hero-bottom">
               <WordAnimation
                 words={words}
                 interval={interval}
@@ -55,13 +55,13 @@ const Projects = () => {
           </h3>
           <div className="col-lg-4 col-md-6">
             <motion.div whileHover={{ scale: 1.1 }} className="cont">
-              <div className="box">
+              <div className="box" style={{backgroundColor: "#232126"}}>
                 <img src="./images/mlp.png" alt="Aim1" />
               </div>
-              <div className="content">
-                <div className="heading">ML Project</div>
+              <div className="content" style={{backgroundColor: "#232126"}}>
+                <div className="text-white heading">ML Project</div>
                 <div className="line"></div>
-                <div className="desp2">
+                <div className="text-white desp2">
                   <div>
                     Click on the Below Link to apply for a Machine Learning
                     Project
@@ -87,13 +87,13 @@ const Projects = () => {
           </div>
           <div className="col-lg-4 col-md-6">
             <motion.div whileHover={{ scale: 1.1 }} className="cont">
-              <div className="box">
+              <div className="box" style={{backgroundColor: "#232126"}}>
                 <img src="./images/swp.png" alt="Aim1" />
               </div>
-              <div className="content">
-                <div className="heading">Software Project</div>
+              <div className="content" style={{backgroundColor: "#232126"}}>
+                <div className="text-white heading">Software Project</div>
                 <div className="line"></div>
-                <div className="desp2">
+                <div className="text-white desp2">
                   <div>
                     Click on the Below Link to apply for a Software Project
                   </div>
@@ -118,13 +118,13 @@ const Projects = () => {
           </div>
           <div className="col-lg-4 col-md-6">
             <motion.div whileHover={{ scale: 1.1 }} className="cont">
-              <div className="box">
+              <div className="box" style={{backgroundColor: "#232126"}}>
                 <img src="./images/otp.png" alt="Aim1" />
               </div>
-              <div className="content">
-                <div className="heading">Others</div>
+              <div className="content" style={{backgroundColor: "#232126"}}>
+                <div className="text-white heading">Others</div>
                 <div className="line"></div>
-                <div className="desp2">
+                <div className="text-white desp2">
                   <div>
                     {" "}
                     Click on the Below Link to apply for Other type of Projects

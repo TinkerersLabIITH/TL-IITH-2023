@@ -27,14 +27,14 @@ const Home = () => {
               Tinkerers' Laboratory
             </motion.div>
             <div className="hero-tag">IIT Hyderabad</div>
-            <div className="hero-bottom">
+            {/* <div className="hero-bottom">
               <WordAnimation
                 words={words}
                 interval={interval}
                 typingDelay={typingDelay}
                 erasingDelay={erasingDelay}
               />
-            </div>
+            </div> */}
             <motion.button
               whileHover={{ scale: 1.2 }}
               whileTap={{ scale: 0.8 }}
@@ -60,9 +60,9 @@ const Home = () => {
         </div>
         <div className="row" id="aims">
           <div className="col-lg-12">
-            <div className="ouraim">Our Aim</div>
+            <div className="ouraim" style={{ color: "#fff" }}>Our Aim</div>
             <div className="seperator"></div>
-            <div className="desp1">
+            <div className="desp1" style={{ color: "#fff" }}>
               Here, at Tinkerers' Lab, our aim is to provide you a working space
               with vast ranges of tools in order to bring out the inner tinkerer
               in you
@@ -72,13 +72,13 @@ const Home = () => {
         <div className="row" id="aims2">
           <div className="col-lg-4 col-md-6">
             <motion.div whileHover={{ scale: 1.1 }} className="cont">
-              <div className="box">
+              <div className="box" style={{backgroundColor: "#272338"}}>
                 <img src="./images/aim1.svg" alt="Aim1" />
               </div>
-              <div className="content">
-                <div className="heading">Availability</div>
+              <div className="content"  style={{backgroundColor: "#232126"}}>
+                <div className="heading" style={{color: "#fff"}}>Availability</div>
                 <div className="line"></div>
-                <div className="desp2">
+                <div className="desp2" style={{color: "#fff"}}>
                   We know that best ideas don't come in working hours only,
                   given that, Tinkerers' lab is open 24/7 for students to tinker
                   at their convenience
@@ -88,13 +88,13 @@ const Home = () => {
           </div>
           <div className="col-lg-4 col-md-6">
             <motion.div whileHover={{ scale: 1.1 }} className="cont">
-              <div className="box">
+              <div className="box" style={{backgroundColor: "#232126"}}>
                 <img src="./images/aim2.svg" alt="Aim1" />
               </div>
-              <div className="content">
-                <div className="heading">Resources</div>
+              <div className="content" style={{backgroundColor: "#232126"}}>
+                <div className="heading" style={{color: "#fff"}}>Resources</div>
                 <div className="line"></div>
-                <div className="desp2">
+                <div className="desp2" style={{color: "#fff"}}>
                   We have a wide range of resources ,from the commonplace
                   Raspberry Pis and Arduinos to CNCs and 3D Printers.
                 </div>
@@ -103,13 +103,13 @@ const Home = () => {
           </div>
           <div className="col-lg-4 col-md-6">
             <motion.div whileHover={{ scale: 1.1 }} className="cont">
-              <div className="box">
+              <div className="box" style={{backgroundColor: "#232126"}}>
                 <img src="./images/aim3.svg" alt="Aim1" />
               </div>
-              <div className="content">
-                <div className="heading">TL Talks</div>
+              <div className="content" style={{backgroundColor: "#232126"}}>
+                <div className="heading" style={{color: "#fff"}}>TL Talks</div>
                 <div className="line"></div>
-                <div className="desp2">
+                <div className="desp2" style={{color: "#fff"}}>
                   TL will host talks and sessions with innovators and
                   entrepreneurs to boost the interest in new fields and push
                   boundaries.
@@ -235,6 +235,7 @@ const Homestyled = styled.section`
     padding-top: 7vh;
   }
   .reachus {
+    margin-top: 3rem;
     width: 220px;
     height: 10vh;
     a {
@@ -278,6 +279,7 @@ const Homestyled = styled.section`
     text-align: center;
   }
   .col-xl {
+    color: #fff;
     text-align: center;
   }
 

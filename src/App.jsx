@@ -10,6 +10,7 @@ import Contacts from './pages/Contacts';
 import Footer from './components/Footer';
 import { ThemeProvider } from 'styled-components';
 import GlobalStyle from './Globalstyle';
+import "./index.css"
 
 const App = () => {
   const theme = {

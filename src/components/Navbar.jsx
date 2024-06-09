@@ -13,7 +13,7 @@ const Navbar = () => {
     <div className="nav-container">
       <Nav>
         <Logo>
-          <img src="./images/LogoNav.svg" alt="" />
+          <img src="./images/TL_Logo.svg" alt="" />
         </Logo>
         <NavIcon onClick={toggleMenu} className={showMenu ? "active" : ""}>
           <div></div>
@@ -167,6 +167,7 @@ const NavItem = styled.li`
       color: #6c10c6;
       scale: 1.2;
     }
-    color: #484848;
+    // color: #484848;
+    color: #fff;
   }
 `;
