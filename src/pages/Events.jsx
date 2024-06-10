@@ -184,7 +184,7 @@ const Events = () => {
           <div className="image">
             <div className='Effect' style={thrustImg}>
               <div className='Content'>
-                <p>PRO and Events of Tinkerers’ Lab is the face of our lab. It handles relations with contingents and clubs across the country along with some of the finest professors and incubators to go along with. The PRO end of the lab will target to collaborate with such bodies and other companies this year to set up mini R&D for such bodies in the lab. The lab will also deal with clubs inside the college which will be a fantastic opportunity to interact with Alumni and Seniors. </p>
+                <p>Thrust was the 3 day flagship event being conducted by Tinkerers’ Lab on 1st-2nd-3rd March of 2024. The event was packed with a lot of things happening around.</p>
               </div>
             </div>
             <div className="Right-Img">
@@ -198,7 +198,8 @@ const Events = () => {
           <div className="image">
             <div className='Effect' style={workshopImg}>
               <div className='Content'>
-                <p>PRO and Events of Tinkerers’ Lab is the face of our lab. It handles relations with contingents and clubs across the country along with some of the finest professors and incubators to go along with. The PRO end of the lab will target to collaborate with such bodies and other companies this year to set up mini R&D for such bodies in the lab. The lab will also deal with clubs inside the college which will be a fantastic opportunity to interact with Alumni and Seniors. </p>
+                <p>Tinkerers’ Lab conducted workshops and bootcamps on over 10 necessary topics from all imaginable disciplines supported by Tinkerers’ Lab with average viewership of over 200 in each of such sessions.
+                </p>
               </div>
             </div>
             <div className="Left-Img">
@@ -212,11 +213,11 @@ const Events = () => {
           <div className="image">
             <div className='Effect' style={tnImg}>
               <div className='Content'>
-                <p>PRO and Events of Tinkerers’ Lab is the face of our lab. It handles relations with contingents and clubs across the country along with some of the finest professors and incubators to go along with. The PRO end of the lab will target to collaborate with such bodies and other companies this year to set up mini R&D for such bodies in the lab. The lab will also deal with clubs inside the college which will be a fantastic opportunity to interact with Alumni and Seniors. </p>
+                <p>Tinkering Night is the annual signature event of Tinkerers’ Lab wherein students come in to the lab and spend their entire night, from roughly 10PM to 6AM in the morning working on a project of their choice and pull it off to success.</p>
               </div>
             </div>
             <div className="Right-Img">
-              <div className="image-name">Tinkerers' Night</div>
+              <div className="image-name">Tinkerers' Night 2024</div>
               <div className="decoration"></div>
             </div>
           </div>
@@ -226,11 +227,12 @@ const Events = () => {
           <div className="image">
             <div className='Effect' style={keyImg}>
               <div className='Content'>
-                <p>PRO and Events of Tinkerers’ Lab is the face of our lab. It handles relations with contingents and clubs across the country along with some of the finest professors and incubators to go along with. The PRO end of the lab will target to collaborate with such bodies and other companies this year to set up mini R&D for such bodies in the lab. The lab will also deal with clubs inside the college which will be a fantastic opportunity to interact with Alumni and Seniors. </p>
+                <p>Students gained valuable insights into industry requirements and current technologies in use.
+                  Bosch initiated negotiations with Tinkerers’ Lab (TL) for a few industry based projects, indicating potential collaborations ahead.</p>
               </div>
             </div>
             <div className="Left-Img">
-              <div className="image-name">Thrust- Keynote Talk</div>
+              <div className="image-name">Thrust-Keynote Talk</div>
               <div className="decoration"></div>
             </div>
           </div>
@@ -240,7 +242,10 @@ const Events = () => {
           <div className="image">
             <div className='Effect' style={thImage}>
               <div className='Content'>
-                <p>PRO and Events of Tinkerers’ Lab is the face of our lab. It handles relations with contingents and clubs across the country along with some of the finest professors and incubators to go along with. The PRO end of the lab will target to collaborate with such bodies and other companies this year to set up mini R&D for such bodies in the lab. The lab will also deal with clubs inside the college which will be a fantastic opportunity to interact with Alumni and Seniors. </p>
+                <p>A captivating nighttime treasure hunt where students navigated through clues to uncover hidden prizes.
+                  Successfully elevated student enthusiasm and participation.
+                  Featured 10 competitive teams, each consisting of 4-5 members, engaging in this exciting challenge.
+                  Significantly amplified the excitement and awareness about Thrust among students.</p>
               </div>
             </div>
             <div className="Right-Img">
@@ -254,7 +259,8 @@ const Events = () => {
           <div className="image">
             <div className='Effect' style={micromouseImg}>
               <div className='Content'>
-                <p>PRO and Events of Tinkerers’ Lab is the face of our lab. It handles relations with contingents and clubs across the country along with some of the finest professors and incubators to go along with. The PRO end of the lab will target to collaborate with such bodies and other companies this year to set up mini R&D for such bodies in the lab. The lab will also deal with clubs inside the college which will be a fantastic opportunity to interact with Alumni and Seniors. </p>
+                <p>As a part of the inter-hostel general championship of IIT Hyderabad, Tinkerers’ Lab volunteered to conduct the Micromouse competition to a scale of reasonable professionalism and led the charge of development of multiple micromouse bots with student community.
+                </p>
               </div>
             </div>
             <div className="Left-Img">
