@@ -33,75 +33,7 @@ const Footer = () => {
         </div>
       </div> */}
       <footer className="bg-[#211F24]">
-        {/* <div className="container grid grid-three-column">
-          <div className="location">
-            <div className="text-white">
-              <b>Location</b>
-            </div>
-            <div>
-              <p>
-                Beside Aryabatta Hostel. Indian Institute of Technology
-                Hyderabad, Kandi, Sangareddy, Telangana, India.
-              </p>
-            </div>
-          </div>
-          <div className="handels">
-            <div className="bold">
-              <b>Reach us</b>
-            </div>
-            <div className="accounts">
-              <picture>
-                <NavLink to="https://www.facebook.com/tl.iith/" target="_blank">
-                  <img src="./images/img1.svg" alt="facebook" />
-                </NavLink>
-              </picture>
-              <picture>
-                <NavLink
-                  to="https://www.instagram.com/tinkererslab_iith"
-                  target="_blank"
-                >
-                  <img src="./images/img5.svg" alt="instagram" />
-                </NavLink>
-              </picture>
-              <picture>
-                <NavLink
-                  to="https://www.linkedin.com/in/tinkerers-lab-iith/"
-                  target="_blank"
-                >
-                  <img src="./images/img2.svg" alt="linkedin" />
-                </NavLink>
-              </picture>
-              <picture>
-                <NavLink to="https://discord.gg/cZFaRjyw" target="_blank">
-                  <img src="./images/img4.svg" alt="discord" />
-                </NavLink>
-              </picture>
-              <picture>
-                <NavLink
-                  to="https://github.com/TinkerersLabIITH"
-                  target="_blank"
-                >
-                  <img src="./images/img3.svg" alt="github" />
-                </NavLink>
-              </picture>
-            </div>
-          </div>
-          <div className="contacts">
-            <div>
-              <PhoneIcon />
-              <a href="tel:+91 97992 98098">+91 97992 98098</a>
-            </div>
-            <div>
-              <EmailIcon />
-              <a href="mailto:tl@iith.ac.in">tl@iith.ac.in</a>
-            </div>
-            <div>
-              <EmailIcon />
-              <a href="mailto:ms20btech11019@iith.ac.in">ms20btech11019@iith.ac.in</a>
-            </div>
-          </div>
-        </div> */}
-        <div className="w-screen flex flex-row justify-between px-[8rem]">
+        <div className="w-screen flex flex-row flex-wrap gap-10 justify-between px-[4rem] sm:px-[8rem] md:px-[8rem] xl:px-[8rem]">
           <div className="flex flex-col w-[40rem]">
             <div className="text-[#C890FF] font-bold text-[3rem]">
               Tinkerers' Laboratory

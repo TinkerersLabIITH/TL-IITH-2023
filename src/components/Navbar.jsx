@@ -16,40 +16,40 @@ const Navbar = () => {
           <img src="./images/TL_Logo.svg" alt="" />
         </Logo>
         <NavIcon onClick={toggleMenu} className={showMenu ? "active" : ""}>
-          <div></div>
-          <div></div>
-          <div></div>
+          <div className="bg-white"></div>
+          <div className="bg-white"></div>
+          <div className="bg-white"></div>
         </NavIcon>
-        <NavMenu showMenu={showMenu} className={showMenu ? "active" : ""}>
+        <NavMenu showMenu={showMenu} className={showMenu ? "bg-black active" : ""}>
           <NavList>
             <NavItem>
               <NavLink onClick={toggleMenu} to="/">
-                Home
+                HOME
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink onClick={toggleMenu} to="/team">
-                Team
+                TEAM
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink onClick={toggleMenu} to="/events">
-                Events
+                EVENTS
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink onClick={toggleMenu} to="/inventory">
-                Inventory
+                INVENTORY
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink onClick={toggleMenu} to="/projects">
-                Projects
+                PROJECTS
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink onClick={toggleMenu} to="/contacts">
-                Contacts
+                CONTACT US
               </NavLink>
             </NavItem>
           </NavList>
@@ -124,7 +124,7 @@ const NavMenu = styled.div`
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #fff;
+    background-color: #000000;
     padding: 1rem;
     transform: ${({ showMenu }) =>
       showMenu ? "translateY(0%)" : "translateY(-100%)"};

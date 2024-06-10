@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import WordAnimation from "../components/homeanimate";
 import ImageScroll from "../components/imagescroll";
+import { CarouselImg } from "../components/CarouselImg";
 import { NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
 
@@ -72,13 +73,13 @@ const Home = () => {
         <div className="row" id="aims2">
           <div className="col-lg-4 col-md-6">
             <motion.div whileHover={{ scale: 1.1 }} className="cont">
-              <div className="box" style={{backgroundColor: "#272338"}}>
+              <div className="box" style={{ backgroundColor: "#272338" }}>
                 <img src="./images/aim1.svg" alt="Aim1" />
               </div>
-              <div className="content"  style={{backgroundColor: "#232126"}}>
-                <div className="heading" style={{color: "#fff"}}>Availability</div>
+              <div className="content" style={{ backgroundColor: "#232126" }}>
+                <div className="heading" style={{ color: "#fff" }}>Availability</div>
                 <div className="line"></div>
-                <div className="desp2" style={{color: "#fff"}}>
+                <div className="desp2" style={{ color: "#fff" }}>
                   We know that best ideas don't come in working hours only,
                   given that, Tinkerers' lab is open 24/7 for students to tinker
                   at their convenience
@@ -88,13 +89,13 @@ const Home = () => {
           </div>
           <div className="col-lg-4 col-md-6">
             <motion.div whileHover={{ scale: 1.1 }} className="cont">
-              <div className="box" style={{backgroundColor: "#232126"}}>
+              <div className="box" style={{ backgroundColor: "#232126" }}>
                 <img src="./images/aim2.svg" alt="Aim1" />
               </div>
-              <div className="content" style={{backgroundColor: "#232126"}}>
-                <div className="heading" style={{color: "#fff"}}>Resources</div>
+              <div className="content" style={{ backgroundColor: "#232126" }}>
+                <div className="heading" style={{ color: "#fff" }}>Resources</div>
                 <div className="line"></div>
-                <div className="desp2" style={{color: "#fff"}}>
+                <div className="desp2" style={{ color: "#fff" }}>
                   We have a wide range of resources ,from the commonplace
                   Raspberry Pis and Arduinos to CNCs and 3D Printers.
                 </div>
@@ -103,26 +104,33 @@ const Home = () => {
           </div>
           <div className="col-lg-4 col-md-6">
             <motion.div whileHover={{ scale: 1.1 }} className="cont">
-              <div className="box" style={{backgroundColor: "#232126"}}>
+              <div className="box" style={{ backgroundColor: "#232126" }}>
                 <img src="./images/aim3.svg" alt="Aim1" />
               </div>
-              <div className="content" style={{backgroundColor: "#232126"}}>
-                <div className="heading" style={{color: "#fff"}}>TL Talks</div>
+              <div className="content" style={{ backgroundColor: "#232126" }}>
+                <div className="heading" style={{ color: "#fff" }}>TL Talks</div>
                 <div className="line"></div>
-                <div className="desp2" style={{color: "#fff"}}>
+                <div className="desp2" style={{ color: "#fff" }}>
                   TL will host talks and sessions with innovators and
                   entrepreneurs to boost the interest in new fields and push
                   boundaries.
                 </div>
               </div>
             </motion.div>
-            <div className="hand">
+            <div className="hidden sm:block md:block xl:block hand">
               <img src="./images/hand.svg" alt="hand" />
             </div>
           </div>
         </div>
       </div>
-      <ImageScroll />
+      {/* <ImageScroll /> */}
+      <div className="flex flex-row justify-center my-10 sm:my-[15rem] md:my-[20rem] lg:my-[20rem]">
+        <div className="w-[65%]">
+          <CarouselImg />
+        </div>
+      </div>
+
+
     </Homestyled>
   );
 };
