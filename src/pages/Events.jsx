@@ -184,7 +184,7 @@ const Events = () => {
           <div className="image">
             <div className='Effect' style={thrustImg}>
               <div className='Content'>
-                <p>Thrust was the 3 day flagship event being conducted by Tinkerers’ Lab on 1st-2nd-3rd March of 2024. The event was packed with a lot of things happening around.</p>
+                <p>Thrust, the flagship event organized by Tinkerers’ Lab, took place over three exciting days from March 1st to 3rd, 2024. The event was brimming with activities, creating a dynamic and engaging atmosphere for all participants.</p>
               </div>
             </div>
             <div className="Right-Img">
@@ -198,8 +198,7 @@ const Events = () => {
           <div className="image">
             <div className='Effect' style={workshopImg}>
               <div className='Content'>
-                <p>Tinkerers’ Lab conducted workshops and bootcamps on over 10 necessary topics from all imaginable disciplines supported by Tinkerers’ Lab with average viewership of over 200 in each of such sessions.
-                </p>
+                <p>Tinkerers’ Lab hosted workshops and bootcamps covering more than 10 essential topics across various disciplines. Each session, supported by Tinkerers’ Lab, attracted an average audience of over 200 participants.</p>
               </div>
             </div>
             <div className="Left-Img">
@@ -213,7 +212,7 @@ const Events = () => {
           <div className="image">
             <div className='Effect' style={tnImg}>
               <div className='Content'>
-                <p>Tinkering Night is the annual signature event of Tinkerers’ Lab wherein students come in to the lab and spend their entire night, from roughly 10PM to 6AM in the morning working on a project of their choice and pull it off to success.</p>
+                <p>Tinkering Night is the annual signature event of Tinkerers’ Lab, where students gather in the lab from approximately 10 PM to 6 AM to work on a project of their choice, striving to complete it successfully by morning.</p>
               </div>
             </div>
             <div className="Right-Img">
@@ -227,8 +226,7 @@ const Events = () => {
           <div className="image">
             <div className='Effect' style={keyImg}>
               <div className='Content'>
-                <p>Students gained valuable insights into industry requirements and current technologies in use.
-                  Bosch initiated negotiations with Tinkerers’ Lab (TL) for a few industry based projects, indicating potential collaborations ahead.</p>
+                <p>During the keynote talk, students gained valuable insights into industry requirements and current technologies in use. Bosch initiated negotiations with Tinkerers’ Lab (TL) for several industry-based projects, indicating potential collaborations ahead.</p>
               </div>
             </div>
             <div className="Left-Img">
@@ -242,10 +240,7 @@ const Events = () => {
           <div className="image">
             <div className='Effect' style={thImage}>
               <div className='Content'>
-                <p>A captivating nighttime treasure hunt where students navigated through clues to uncover hidden prizes.
-                  Successfully elevated student enthusiasm and participation.
-                  Featured 10 competitive teams, each consisting of 4-5 members, engaging in this exciting challenge.
-                  Significantly amplified the excitement and awareness about Thrust among students.</p>
+                <p>The nighttime treasure hunt captivated students as they navigated through clues to uncover hidden prizes, significantly elevating enthusiasm and participation. Featuring 10 competitive teams, each consisting of 4-5 members, the event amplified excitement and awareness about Thrust among students.</p>
               </div>
             </div>
             <div className="Right-Img">
@@ -259,8 +254,7 @@ const Events = () => {
           <div className="image">
             <div className='Effect' style={micromouseImg}>
               <div className='Content'>
-                <p>As a part of the inter-hostel general championship of IIT Hyderabad, Tinkerers’ Lab volunteered to conduct the Micromouse competition to a scale of reasonable professionalism and led the charge of development of multiple micromouse bots with student community.
-                </p>
+                <p>As part of the inter-hostel general championship at IIT Hyderabad, Tinkerers’ Lab volunteered to conduct the Micromouse competition with a high level of professionalism. They led the development of multiple micromouse bots in collaboration with the student community.</p>
               </div>
             </div>
             <div className="Left-Img">
@@ -274,7 +268,7 @@ const Events = () => {
           <div className="image">
             <div className='Effect' style={orImage}>
               <div className='Content'>
-                <p>PRO and Events of Tinkerers’ Lab is the face of our lab. It handles relations with contingents and clubs across the country along with some of the finest professors and incubators to go along with. The PRO end of the lab will target to collaborate with such bodies and other companies this year to set up mini R&D for such bodies in the lab. The lab will also deal with clubs inside the college which will be a fantastic opportunity to interact with Alumni and Seniors. </p>
+                <p>For the Orientation event, Tinkerers’ Lab welcomed new students with an engaging introduction to its facilities and resources. The event provided an overview of various projects and activities, encouraging students to explore their creativity and technical skills. With hands-on demonstrations and interactive sessions, Tinkerers’ Lab successfully inspired enthusiasm and participation among the newcomers.</p>
               </div>
             </div>
             <div className="Right-Img">
@@ -288,7 +282,7 @@ const Events = () => {
           <div className="image">
             <div className='Effect' style={divStyle}>
               <div className='Content'>
-                <p>PRO and Events of Tinkerers’ Lab is the face of our lab. It handles relations with contingents and clubs across the country along with some of the finest professors and incubators to go along with. The PRO end of the lab will target to collaborate with such bodies and other companies this year to set up mini R&D for such bodies in the lab. The lab will also deal with clubs inside the college which will be a fantastic opportunity to interact with Alumni and Seniors. </p>
+                <p>For the Cybercon event, Tinkerers’ Lab, in collaboration with the Cyber Security Club Kludge, hosted an engaging cyber conclave. The event featured expert talks, hands-on workshops, and interactive sessions focused on the latest trends and challenges in cybersecurity. Participants gained valuable knowledge and skills, while the collaborative effort successfully fostered a deeper interest and understanding of cybersecurity among students.</p>
               </div>
             </div>
             <div className="Left-Img">
@@ -302,7 +296,7 @@ const Events = () => {
           <div className="image">
             <div className='Effect' style={EP2Image}>
               <div className='Content'>
-                <p>PRO and Events of Tinkerers’ Lab is the face of our lab. It handles relations with contingents and clubs across the country along with some of the finest professors and incubators to go along with. The PRO end of the lab will target to collaborate with such bodies and other companies this year to set up mini R&D for such bodies in the lab. The lab will also deal with clubs inside the college which will be a fantastic opportunity to interact with Alumni and Seniors. </p>
+                <p>For the Tinkering Episodes, Tinkerers’ Lab conducted a series of interactive sessions designed to inspire creativity and innovation. Each episode featured expert-led discussions, hands-on activities, and collaborative projects, covering a wide range of topics. These sessions provided students with practical skills and insights, fostering a vibrant learning environment and encouraging continuous exploration and tinkering.</p>
               </div>
             </div>
             <div className='Right-Img'>
@@ -315,7 +309,7 @@ const Events = () => {
           <div className="image">
             <div className='Effect' style={EP1Image}>
               <div className='Content'>
-                <p>PRO and Events of Tinkerers’ Lab is the face of our lab. It handles relations with contingents and clubs across the country along with some of the finest professors and incubators to go along with. The PRO end of the lab will target to collaborate with such bodies and other companies this year to set up mini R&D for such bodies in the lab. The lab will also deal with clubs inside the college which will be a fantastic opportunity to interact with Alumni and Seniors. </p>
+                <p>For the Tinkering Episodes, Tinkerers’ Lab conducted a series of interactive sessions designed to inspire creativity and innovation. Each episode featured expert-led discussions, hands-on activities, and collaborative projects, covering a wide range of topics. These sessions provided students with practical skills and insights, fostering a vibrant learning environment and encouraging continuous exploration and tinkering.</p>
               </div>
             </div>
             <div className="Left-Img">
@@ -328,7 +322,7 @@ const Events = () => {
           <div className="image">
             <div className='Effect' style={TNightIMG}>
               <div className='Content'>
-                <p>PRO and Events of Tinkerers’ Lab is the face of our lab. It handles relations with contingents and clubs across the country along with some of the finest professors and incubators to go along with. The PRO end of the lab will target to collaborate with such bodies and other companies this year to set up mini R&D for such bodies in the lab. The lab will also deal with clubs inside the college which will be a fantastic opportunity to interact with Alumni and Seniors.</p>
+                <p>For Tinkerers’ Night, Tinkerers’ Lab hosted an immersive overnight event where students gathered from 10 PM to 6 AM to work on projects of their choice. The event featured collaborative problem-solving, expert guidance, and a dynamic atmosphere, allowing participants to bring their ideas to life. Tinkerers’ Night successfully fostered creativity, teamwork, and innovation, making it a memorable and impactful experience for all involved.</p>
               </div>
             </div>
             <div className='Right-Img'>

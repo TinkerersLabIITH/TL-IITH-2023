@@ -50,9 +50,9 @@ const Team = () => {
         <div className="text-white position">HEADS</div>
         <div className='flex flex-row gap-10 img-secs'>
           <div className='flex flex-col justify-center'>
-            <picture><img src="./images/aditya.svg" alt="pic" /></picture>
-            <div className='text-white text-[3rem] text-center'>Aditya Garg</div>
-            <div className='text-white text-[2rem] text-center'>MACHINE LEARNING</div>
+            <picture><img src="./images/ayush.svg" alt="pic" /></picture>
+            <div className='text-white text-[3rem] text-center'>Aayush Adlakha</div>
+            <div className='text-white text-[2rem] text-center'>TECHNICAL AFFAIRS</div>
           </div>
           <div className='flex flex-col justify-center'>
             <picture><img src="./images/prabhat.svg" alt="pic" /></picture>
@@ -60,15 +60,16 @@ const Team = () => {
             <div className='text-white text-[2rem] text-center text-wrap'>MANAGEMENT<br /> AFFAIRS AND PRO</div>
           </div>
           <div className='flex flex-col justify-center'>
+            <picture><img src="./images/aditya.svg" alt="pic" /></picture>
+            <div className='text-white text-[3rem] text-center'>Aditya Garg</div>
+            <div className='text-white text-[2rem] text-center'>MACHINE LEARNING</div>
+          </div>
+          <div className='flex flex-col justify-center'>
             <picture><img src="./images/himanshu.svg" alt="pic" /></picture>
             <div className='text-white text-[3rem] text-center'>Himanshu S.</div>
             <div className='text-white text-[2rem] text-center'>SOFTWARE DEVELOPMENT</div>
           </div>
-          <div className='flex flex-col justify-center'>
-            <picture><img src="./images/ayush.svg" alt="pic" /></picture>
-            <div className='text-white text-[3rem] text-center'>Aayush Adlakha</div>
-            <div className='text-white text-[2rem] text-center'>TECHNICAL AFFAIRS</div>
-          </div>
+          
 
         </div>
         <div className="flex flex-row gap-10 img-secs">

@@ -8,7 +8,7 @@ import tn from "../assets/imagescroll/tinkerersnight2024.png"
 
 export function CarouselImg() {
   return (
-    <div className="h-[20rem] sm:h-[25rem] xl:h-[30rem] 2xl:h-[40rem]">
+    <div className="h-[20rem] sm:h-[25rem] xl:h-[50rem] 2xl:h-[60rem] 3xl:h-[60rem]">
       <Carousel slideInterval={2000}>
         <img src={thrust} alt="..." />
         <img src={thrust2} alt="..." />
