@@ -50,7 +50,8 @@ const Projects = () => {
           </div>
         </div>
         <div className="row" id="collab-form">
-          <h3 style={{ fontWeight: 500, color: "black" }}>
+          <div className="text-white text-[3rem] mb-[3rem]">Updates list of projects for 2023-24 is coming soon</div>
+          <h3 style={{ fontWeight: 500, color: "white" }}>
             Projects Available
           </h3>
           <div className="col-lg-4 col-md-6">
