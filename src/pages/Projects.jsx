@@ -50,14 +50,14 @@ const Projects = () => {
           </div>
         </div>
         <div className="row" id="collab-form">
-          <div className="text-white text-[3rem] mb-[3rem]">Updates list of projects for 2023-24 is coming soon</div>
+          <div className="text-white text-[3rem] mb-[3rem]">Updated list of projects for 2023-24 is coming soon</div>
           <h3 style={{ fontWeight: 500, color: "white" }}>
             Projects Available
           </h3>
           <div className="col-lg-4 col-md-6">
             <motion.div whileHover={{ scale: 1.1 }} className="cont">
-              <div className="box" style={{backgroundColor: "#232126"}}>
-                <img src="./images/mlp.png" alt="Aim1" />
+              <div className="box" style={{backgroundColor: "#272338"}}>
+                <img src="./images/mlp.svg" alt="Aim1" />
               </div>
               <div className="content" style={{backgroundColor: "#232126"}}>
                 <div className="text-white heading">ML Project</div>
@@ -88,8 +88,8 @@ const Projects = () => {
           </div>
           <div className="col-lg-4 col-md-6">
             <motion.div whileHover={{ scale: 1.1 }} className="cont">
-              <div className="box" style={{backgroundColor: "#232126"}}>
-                <img src="./images/swp.png" alt="Aim1" />
+              <div className="box" style={{backgroundColor: "#272338"}}>
+                <img src="./images/swp.svg" alt="Aim1" />
               </div>
               <div className="content" style={{backgroundColor: "#232126"}}>
                 <div className="text-white heading">Software Project</div>
@@ -119,8 +119,8 @@ const Projects = () => {
           </div>
           <div className="col-lg-4 col-md-6">
             <motion.div whileHover={{ scale: 1.1 }} className="cont">
-              <div className="box" style={{backgroundColor: "#232126"}}>
-                <img src="./images/otp.png" alt="Aim1" />
+              <div className="box" style={{backgroundColor: "#272338"}}>
+                <img src="./images/otp.svg" alt="Aim1" />
               </div>
               <div className="content" style={{backgroundColor: "#232126"}}>
                 <div className="text-white heading">Others</div>

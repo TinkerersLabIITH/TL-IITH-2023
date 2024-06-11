@@ -89,7 +89,7 @@ const Home = () => {
           </div>
           <div className="col-lg-4 col-md-6">
             <motion.div whileHover={{ scale: 1.1 }} className="cont">
-              <div className="box" style={{ backgroundColor: "#232126" }}>
+              <div className="box" style={{ backgroundColor: "#272338" }}>
                 <img src="./images/aim2.svg" alt="Aim1" />
               </div>
               <div className="content" style={{ backgroundColor: "#232126" }}>
@@ -104,7 +104,7 @@ const Home = () => {
           </div>
           <div className="col-lg-4 col-md-6">
             <motion.div whileHover={{ scale: 1.1 }} className="cont">
-              <div className="box" style={{ backgroundColor: "#232126" }}>
+              <div className="box" style={{ backgroundColor: "#272338" }}>
                 <img src="./images/aim3.svg" alt="Aim1" />
               </div>
               <div className="content" style={{ backgroundColor: "#232126" }}>

@@ -45,13 +45,13 @@ const Footer = () => {
               Telangana, India
             </div>
           </div>
-          <div className="flex flex-col w-[30rem] gap-8">
+          <div className="flex flex-col w-[25rem] gap-8">
             <div className="flex flex-row justify-between h-[2rem]">
-              <img src="./images/Instagram.svg" />
-              <img src="./images/Facebook.svg" />
-              <img src="./images/LinkedIn.svg" />
-              <img src="./images/Discord.svg" />
-              <img src="./images/Twitter.svg" />
+              <a href="https://www.instagram.com/tinkererslab_iith/" target="_blank" className="cursor-pointer"><img src="./images/Instagram.svg" /></a>
+              <a href="https://www.facebook.com/tl.iith/" target="_balnk" className="cursor-pointer"><img src="./images/Facebook.svg" /></a>
+              <a href="https://www.linkedin.com/company/tinkerers-lab-iith" target="_blank" className="cursor-pointer"><img src="./images/LinkedIn.svg" /></a>
+              {/* <img src="./images/Discord.svg" />
+              <img src="./images/Twitter.svg" /> */}
             </div>
             <div className="flex flex-row gap-8">
               <img src="./images/mail.svg" alt="" />
