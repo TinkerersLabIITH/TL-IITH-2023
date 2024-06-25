@@ -5,6 +5,7 @@ import ImageScroll from "../components/imagescroll";
 import { CarouselImg } from "../components/CarouselImg";
 import { NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
+import { WorkshopsC } from "../components/WorkshopsC";
 
 const words = ["Think", "Tinker", "Transform"];
 const interval = 200; // Delay between each letter
@@ -125,7 +126,10 @@ const Home = () => {
       </div>
       {/* <ImageScroll /> */}
       <div className="flex flex-row justify-center my-10 sm:my-[15rem] md:my-[20rem] lg:my-[20rem]">
-        <div className="w-[65%]">
+        <div className="flex flex-col gap-[2rem] w-[65%]">
+          <div className="text-white text-[3rem] sm:text-[2rem] md:text-[3rem] lg:text-[5rem] text-center font-semibold">UPCOMING WORKSHOPS</div>
+          <WorkshopsC/>
+          <div className="text-white text-[3rem] sm:text-[2rem] md:text-[3rem] lg:text-[5rem] text-center font-semibold mt-6">HIGHLIGHTS</div>
           <CarouselImg />
         </div>
       </div>
