@@ -19,7 +19,7 @@ const Home = () => {
       <motion.div whileHover={{ scale: 1.5 }} className="circle3" />
       <div className="container">
         <div className="row">
-          <div className="col-xl" id="left">
+          <div className="flex flex-col col-xl" id="left">
             <motion.div
               initial={{ opacity: 0, y: "50%" }}
               animate={{ opacity: 1, y: 0, transition: { duration: 0.5 } }}
@@ -29,21 +29,29 @@ const Home = () => {
               Tinkerers' Laboratory
             </motion.div>
             <div className="hero-tag">IIT Hyderabad</div>
-            {/* <div className="hero-bottom">
-              <WordAnimation
-                words={words}
-                interval={interval}
-                typingDelay={typingDelay}
-                erasingDelay={erasingDelay}
-              />
-            </div> */}
-            <motion.button
-              whileHover={{ scale: 1.2 }}
-              whileTap={{ scale: 0.8 }}
-              className="reachus"
-            >
-              <NavLink to="/contacts">Reach Us</NavLink>
-            </motion.button>
+            <div className="flex flex-col justify-center items-center">
+              <NavLink to="/contacts">
+                <motion.button
+                  whileHover={{ scale: 1.2 }}
+                  whileTap={{ scale: 0.8 }}
+                  className="reachus"
+                >
+                  Reach Us
+                </motion.button>
+              </NavLink>
+
+              <a href="https://tlid.vercel.app" target="_blank">
+                <motion.button
+                  whileHover={{ scale: 1.2 }}
+                  whileTap={{ scale: 0.8 }}
+                  className="reachus"
+                >
+                  Access Lab
+                </motion.button>
+              </a>
+
+            </div>
+
           </div>
           <div className="col-xl" id="right">
             <div className="section-hero-image">
@@ -128,7 +136,7 @@ const Home = () => {
       <div className="flex flex-row justify-center my-10 sm:my-[15rem] md:my-[20rem] lg:my-[20rem]">
         <div className="flex flex-col gap-[2rem] w-[65%]">
           <div className="text-white text-[3rem] sm:text-[2rem] md:text-[3rem] lg:text-[5rem] text-center font-semibold">UPCOMING WORKSHOPS</div>
-          <WorkshopsC/>
+          <WorkshopsC />
           <div className="text-white text-[3rem] sm:text-[2rem] md:text-[3rem] lg:text-[5rem] text-center font-semibold mt-6">HIGHLIGHTS</div>
           <CarouselImg />
         </div>
