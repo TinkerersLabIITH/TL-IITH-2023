@@ -136,7 +136,13 @@ const Home = () => {
       <div className="flex flex-row justify-center my-10 sm:my-[15rem] md:my-[20rem] lg:my-[20rem]">
         <div className="flex flex-col gap-[2rem] w-[65%]">
           <div className="text-white text-[3rem] sm:text-[2rem] md:text-[3rem] lg:text-[5rem] text-center font-semibold">UPCOMING WORKSHOPS</div>
-          <WorkshopsC />
+          {/* <WorkshopsC /> */}
+          <div className="flex flex-row justify-center h-auto w-full cursor-pointer">
+            <NavLink to="/workshops">
+              <img src="./images/teachnook-logo.svg" alt="workshops" className="w-[18rem] h-[24rem]" />
+            </NavLink>
+          </div>
+
           <div className="text-white text-[3rem] sm:text-[2rem] md:text-[3rem] lg:text-[5rem] text-center font-semibold mt-6">HIGHLIGHTS</div>
           <CarouselImg />
         </div>

@@ -8,6 +8,7 @@ import Inventory from './pages/Inventory';
 import Projects from './pages/Projects';
 import Contacts from './pages/Contacts';
 import Footer from './components/Footer';
+import Workshops from './pages/Workshops';
 import { ThemeProvider } from 'styled-components';
 import GlobalStyle from './Globalstyle';
 import "./index.css"
@@ -36,6 +37,7 @@ const App = () => {
           <Route path="inventory" element={<Inventory />} />
           <Route path="projects" element={<Projects />} />
           <Route path="contacts" element={<Contacts />} />
+          <Route path="workshops" element={<Workshops />} />
         </Routes>
         <Footer />
       </HashRouter>
