@@ -17,10 +17,16 @@ const Page1 = ({ handleCardClick }) => {
           <div className="col-lg-4 col-md-6" key={1}>
             <motion.div whileHover={{ scale: 1.1 }} className="cont" onClick={() => handleCardClick(1)}>
               <div className="content" style={{ backgroundColor: "#232126" }}>
-                <div className="heading" style={{ color: "#fff" }}>Computer Science</div>
+                <div className="heading" style={{ color: "#C890FF" }}>Computer Science</div>
                 <div className="line"></div>
                 <div className="desp2" style={{ color: "#fff" }}>
                   Explore the field of Computer Science with programming, artificial intelligence, data science, and cybersecurity. Learn to develop software applications, AI models, and secure digital systems for various industries.
+                  <ul className="font-semibold justify-start list-disc" style={{ paddingLeft: "20px", color: "#fff" }}>
+                    <li>Programming</li>
+                    <li>Artificial Intelligence</li>
+                    <li>Data Science</li>
+                    <li>Cybersecurity</li>
+                  </ul>
                 </div>
               </div>
             </motion.div>
@@ -29,10 +35,16 @@ const Page1 = ({ handleCardClick }) => {
           <div className="col-lg-4 col-md-6" key={2}>
             <motion.div whileHover={{ scale: 1.1 }} className="cont" onClick={() => handleCardClick(2)}>
               <div className="content" style={{ backgroundColor: "#232126" }}>
-                <div className="heading" style={{ color: "#fff" }}>Electronics & Communication</div>
+                <div className="heading" style={{ color: "#C890FF" }}>Electronics & Communication</div>
                 <div className="line"></div>
                 <div className="desp2" style={{ color: "#fff" }}>
                   Gain expertise in embedded systems, IoT, robotics, and wireless communication. Learn how to design intelligent electronic devices, automation systems, and smart networks for modern applications.
+                  <ul className="font-semibold justify-start list-disc" style={{ paddingLeft: "20px", color: "#fff" }}>
+                    <li>Embedded Systems</li>
+                    <li>IoT</li>
+                    <li>Robotics</li>
+                    <li>Wireless Communication</li>
+                  </ul>
                 </div>
               </div>
             </motion.div>
@@ -40,10 +52,15 @@ const Page1 = ({ handleCardClick }) => {
           <div className="col-lg-4 col-md-6" key={3}>
             <motion.div whileHover={{ scale: 1.1 }} className="cont" onClick={() => handleCardClick(3)}>
               <div className="content" style={{ backgroundColor: "#232126" }}>
-                <div className="heading" style={{ color: "#fff" }}>Mechanical Engineering</div>
+                <div className="heading" style={{ color: "#C890FF" }}>Mechanical Engineering</div>
                 <div className="line"></div>
                 <div className="desp2" style={{ color: "#fff" }}>
                   Discover mechanical design, thermodynamics, and automotive technologies. Develop skills in product design, manufacturing processes, and energy-efficient systems for various engineering applications.
+                  <ul className="font-semibold justify-start list-disc" style={{ paddingLeft: "20px", color: "#fff" }}>
+                    <li>Mechanical Design</li>
+                    <li>Thermodynamics</li>
+                    <li>Automotive Technologies</li>
+                  </ul>
                 </div>
               </div>
             </motion.div>
@@ -56,10 +73,15 @@ const Page1 = ({ handleCardClick }) => {
           <div className="col-lg-4 col-md-6" key={4}>
             <motion.div whileHover={{ scale: 1.1 }} className="cont" onClick={() => handleCardClick(4)}>
               <div className="content" style={{ backgroundColor: "#232126" }}>
-                <div className="heading" style={{ color: "#fff" }}>Civil Engineering</div>
+                <div className="heading" style={{ color: "#C890FF" }}>Civil Engineering</div>
                 <div className="line"></div>
                 <div className="desp2" style={{ color: "#fff" }}>
                   Learn the fundamentals of structural engineering, construction management, and urban infrastructure. Work on sustainable building designs, smart city projects, and large-scale civil structures.
+                  <ul className="font-semibold justify-start list-disc" style={{ paddingLeft: "20px", color: "#fff" }}>
+                    <li>Structural Engineering</li>
+                    <li>Construction Management</li>
+                    <li>Urban Infrastructure</li>
+                  </ul>
                 </div>
               </div>
             </motion.div>
@@ -67,10 +89,16 @@ const Page1 = ({ handleCardClick }) => {
           <div className="col-lg-4 col-md-6" key={5}>
             <motion.div whileHover={{ scale: 1.1 }} className="cont" onClick={() => handleCardClick(5)}>
               <div className="content" style={{ backgroundColor: "#232126" }}>
-                <div className="heading" style={{ color: "#fff" }}>Management and<br />Business</div>
+                <div className="heading" style={{ color: "#C890FF" }}>Management and<br />Business</div>
                 <div className="line"></div>
                 <div className="desp2" style={{ color: "#fff" }}>
                   Explore Digital Marketing, Finance, HR Management, and Entrepreneurship. Learn branding, risk analysis, HR analytics, and leadership. Gain hands-on experience in SEO, investment management, and corporate HR.
+                  <ul className="font-semibold justify-start list-disc" style={{ paddingLeft: "20px", color: "#fff" }}>
+                    <li>Digital Marketing</li>
+                    <li>Finance</li>
+                    <li>HR Management</li>
+                    <li>Entrepreneurship</li>
+                  </ul>
                 </div>
               </div>
             </motion.div>
@@ -110,11 +138,11 @@ const Page2 = () => {
             <motion.div whileHover={{ scale: 1.1 }} className="cont"></motion.div>
             <a href="https://forms.gle/QNyPECMPXzydgTZJ8" target="_blank">
               <div className="content" style={{ backgroundColor: "#232126" }}>
-                <div className="heading" style={{ color: "#fff" }}>Machine Learning</div>
+                <div className="heading" style={{ color: "#C890FF" }}>Machine Learning</div>
                 <div className="line"></div>
                 <div className="desp2" style={{ color: "#fff" }}>
                   Learn Supervised & Unsupervised Learning, Regression, Clustering, and Recommender Systems. Work on real-world datasets using Python, Scikit-learn, and TensorFlow. Applications: AI assistants, fraud detection, healthcare analytics.
-                  <ul style={{ listStyleType: "disc", paddingLeft: "20px", color: "#fff" }}>
+                  <ul className="font-semibold justify-start list-disc" style={{ paddingLeft: "20px", color: "#fff" }}>
                     <li>Introduction to Machine Learning</li>
                     <li>Supervised & Unsupervised Learning</li>
                     <li>Regression & Classification Algorithms</li>
@@ -132,11 +160,11 @@ const Page2 = () => {
             <motion.div whileHover={{ scale: 1.1 }} className="cont"></motion.div>
             <a href="https://forms.gle/QNyPECMPXzydgTZJ8" target="_blank">
               <div className="content" style={{ backgroundColor: "#232126" }}>
-                <div className="heading" style={{ color: "#fff" }}>Data Science</div>
+                <div className="heading" style={{ color: "#C890FF" }}>Data Science</div>
                 <div className="line"></div>
                 <div className="desp2" style={{ color: "#fff" }}>
                   Covers statistics, MySQL, NumPy, Pandas, and Python for data analysis. Learn EDA (Exploratory Data Analysis), Machine Learning basics, and Data Visualization. Applications: Business analytics, finance, healthcare, marketing insights.
-                  <ul style={{ listStyleType: "disc", paddingLeft: "20px", color: "#fff" }}>
+                  <ul className="font-semibold justify-start list-disc" style={{ paddingLeft: "20px", color: "#fff" }}>
                     <li>Introduction to Data Science</li>
                     <li>Statistics for Data Science</li>
                     <li>MySQL for Data Management</li>
@@ -159,11 +187,11 @@ const Page2 = () => {
             <motion.div whileHover={{ scale: 1.1 }} className="cont"></motion.div>
             <a href="https://forms.gle/QNyPECMPXzydgTZJ8" target="_blank">
               <div className="content" style={{ backgroundColor: "#232126" }}>
-                <div className="heading" style={{ color: "#fff" }}>Artificial Intelligence</div>
+                <div className="heading" style={{ color: "#C890FF" }}>Artificial Intelligence</div>
                 <div className="line"></div>
                 <div className="desp2" style={{ color: "#fff" }}>
                   Learn Neural Networks, NLP (Natural Language Processing), and Computer Vision. Work on Chatbots, Speech Recognition, and AI-powered automation. Applications: Self-driving cars, AI recommendations, virtual assistants.
-                  <ul style={{ listStyleType: "disc", paddingLeft: "20px", color: "#fff" }}>
+                  <ul className="font-semibold justify-start list-disc" style={{ paddingLeft: "20px", color: "#fff" }}>
                     <li>Fundamentals of AI</li>
                     <li>Neural Networks & Deep Learning</li>
                     <li>NLP (Natural Language Processing)</li>
@@ -180,11 +208,11 @@ const Page2 = () => {
             <motion.div whileHover={{ scale: 1.1 }} className="cont"></motion.div>
             <a href="https://forms.gle/QNyPECMPXzydgTZJ8" target="_blank">
               <div className="content" style={{ backgroundColor: "#232126" }}>
-                <div className="heading" style={{ color: "#fff" }}>Web Development</div>
+                <div className="heading" style={{ color: "#C890FF" }}>Web Development</div>
                 <div className="line"></div>
                 <div className="desp2" style={{ color: "#fff" }}>
                   Covers HTML, CSS, JavaScript, React.js, and backend development with Node.js & MongoDB. Learn to build dynamic, responsive web applications. Applications: E-commerce platforms, blogs, SaaS products, and dashboards.
-                  <ul style={{ listStyleType: "disc", paddingLeft: "20px", color: "#fff" }}>
+                  <ul className="font-semibold justify-start list-disc" style={{ paddingLeft: "20px", color: "#fff" }}>
                     <li>Introduction to Web Technologies</li>
                     <li>HTML, CSS, JavaScript Basics</li>
                     <li>Advanced JavaScript & Frameworks (React.js)</li>
@@ -209,11 +237,11 @@ const Page2 = () => {
             <motion.div whileHover={{ scale: 1.1 }} className="cont"></motion.div>
             <a href="https://forms.gle/QNyPECMPXzydgTZJ8" target="_blank">
               <div className="content" style={{ backgroundColor: "#232126" }}>
-                <div className="heading" style={{ color: "#fff" }}>Cyber Security</div>
+                <div className="heading" style={{ color: "#C890FF" }}>Cyber Security</div>
                 <div className="line"></div>
                 <div className="desp2" style={{ color: "#fff" }}>
                   Learn ethical hacking, penetration testing, cryptography, and malware analysis. Gain hands-on skills in vulnerability testing, security audits, and compliance frameworks. Applications: Network security, threat detection, cybersecurity consulting.
-                  <ul style={{ listStyleType: "disc", paddingLeft: "20px", color: "#fff" }}>
+                  <ul className="font-semibold justify-start list-disc" style={{ paddingLeft: "20px", color: "#fff" }}>
                     <li>Introduction to Cyber Security</li>
                     <li>Ethical Hacking & Penetration Testing</li>
                     <li>Network Security & Firewalls</li>
@@ -230,11 +258,11 @@ const Page2 = () => {
             <motion.div whileHover={{ scale: 1.1 }} className="cont"></motion.div>
             <a href="https://forms.gle/QNyPECMPXzydgTZJ8" target="_blank">
               <div className="content" style={{ backgroundColor: "#232126" }}>
-                <div className="heading" style={{ color: "#fff" }}>Cloud Computing</div>
+                <div className="heading" style={{ color: "#C890FF" }}>Cloud Computing</div>
                 <div className="line"></div>
                 <div className="desp2" style={{ color: "#fff" }}>
                   Covers AWS, Google Cloud, Azure, Kubernetes, and DevOps. Learn serverless computing, containerization, and cloud security. Applications: Scalable infrastructure, cloud-based app deployment, enterprise solutions.
-                  <ul style={{ listStyleType: "disc", paddingLeft: "20px", color: "#fff" }}>
+                  <ul className="font-semibold justify-start list-disc" style={{ paddingLeft: "20px", color: "#fff" }}>
                     <li>Cloud Fundamentals & Architecture</li>
                     <li>AWS, Google Cloud, Azure Overview</li>
                     <li>Kubernetes & Containerization</li>
@@ -257,11 +285,11 @@ const Page2 = () => {
             <motion.div whileHover={{ scale: 1.1 }} className="cont"></motion.div>
             <a href="https://forms.gle/QNyPECMPXzydgTZJ8" target="_blank">
               <div className="content" style={{ backgroundColor: "#232126" }}>
-                <div className="heading" style={{ color: "#fff" }}>App Development</div>
+                <div className="heading" style={{ color: "#C890FF" }}>App Development</div>
                 <div className="line"></div>
                 <div className="desp2" style={{ color: "#fff" }}>
                   Learn iOS (Swift), Android (Kotlin), and cross-platform development (Flutter/React Native). Build user-friendly mobile applications with API integration and UI/UX best practices. Applications: E-commerce, mobile banking, fitness tracking apps.
-                  <ul style={{ listStyleType: "disc", paddingLeft: "20px", color: "#fff" }}>
+                  <ul className="font-semibold justify-start list-disc" style={{ paddingLeft: "20px", color: "#fff" }}>
                     <li>Mobile App Development Fundamentals</li>
                     <li>iOS Development (Swift)</li>
                     <li>Android Development (Kotlin)</li>
@@ -278,11 +306,11 @@ const Page2 = () => {
             <motion.div whileHover={{ scale: 1.1 }} className="cont"></motion.div>
             <a href="https://forms.gle/QNyPECMPXzydgTZJ8" target="_blank">
               <div className="content" style={{ backgroundColor: "#232126" }}>
-                <div className="heading" style={{ color: "#fff" }}>AR/VR</div>
+                <div className="heading" style={{ color: "#C890FF" }}>AR/VR</div>
                 <div className="line"></div>
                 <div className="desp2" style={{ color: "#fff" }}>
                   Covers Unity, Unreal Engine, 3D modeling, and spatial computing. Learn to create immersive gaming, education, and medical applications. Applications: Virtual training, 3D simulations, metaverse solutions.
-                  <ul style={{ listStyleType: "disc", paddingLeft: "20px", color: "#fff" }}>
+                  <ul className="font-semibold justify-start list-disc" style={{ paddingLeft: "20px", color: "#fff" }}>
                     <li>Introduction to AR/VR</li>
                     <li>Unity & Unreal Engine Basics</li>
                     <li>3D Modeling & Rendering</li>
@@ -331,11 +359,11 @@ const Page3 = () => {
             <motion.div whileHover={{ scale: 1.1 }} className="cont"></motion.div>
             <a href="https://forms.gle/QNyPECMPXzydgTZJ8" target="_blank">
               <div className="content" style={{ backgroundColor: "#232126" }}>
-                <div className="heading" style={{ color: "#fff" }}>Embedded Systems</div>
+                <div className="heading" style={{ color: "#C890FF" }}>Embedded Systems</div>
                 <div className="line"></div>
                 <div className="desp2" style={{ color: "#fff" }}>
                   Learn microcontrollers (Arduino, Raspberry Pi), Real-time OS, and Firmware Development. Work on sensor interfacing, hardware programming, and embedded C. Applications: IoT devices, smart appliances, automotive systems.
-                  <ul style={{ listStyleType: "disc", paddingLeft: "20px", color: "#fff" }}>
+                  <ul className="font-semibold justify-start list-disc" style={{ paddingLeft: "20px", color: "#fff" }}>
                     <li>Introduction to Microcontrollers (Arduino, Raspberry Pi)</li>
                     <li>Real-time Operating Systems (RTOS)</li>
                     <li>Firmware Development & Embedded C</li>
@@ -351,11 +379,11 @@ const Page3 = () => {
             <motion.div whileHover={{ scale: 1.1 }} className="cont"></motion.div>
             <a href="https://forms.gle/QNyPECMPXzydgTZJ8" target="_blank">
               <div className="content" style={{ backgroundColor: "#232126" }}>
-                <div className="heading" style={{ color: "#fff" }}>Internet of Things</div>
+                <div className="heading" style={{ color: "#C890FF" }}>Internet of Things</div>
                 <div className="line"></div>
                 <div className="desp2" style={{ color: "#fff" }}>
                   Covers wireless communication protocols (WiFi, ZigBee, MQTT) and cloud integration. Build sensor-based automation systems and smart city applications. Applications: Smart homes, wearables, healthcare monitoring.
-                  <ul style={{ listStyleType: "disc", paddingLeft: "20px", color: "#fff" }}>
+                  <ul className="font-semibold justify-start list-disc" style={{ paddingLeft: "20px", color: "#fff" }}>
                     <li>Basics of IoT & Connected Devices</li>
                     <li>Wireless Communication Protocols (WiFi, ZigBee, MQTT)</li>
                     <li>IoT Sensors & Actuators</li>
@@ -376,11 +404,11 @@ const Page3 = () => {
             <motion.div whileHover={{ scale: 1.1 }} className="cont"></motion.div>
             <a href="https://forms.gle/QNyPECMPXzydgTZJ8" target="_blank">
               <div className="content" style={{ backgroundColor: "#232126" }}>
-                <div className="heading" style={{ color: "#fff" }}>Robotics</div>
+                <div className="heading" style={{ color: "#C890FF" }}>Robotics</div>
                 <div className="line"></div>
                 <div className="desp2" style={{ color: "#fff" }}>
                   Learn robot programming, AI integration, motion control, and robotic arms. Work on autonomous robots, drone navigation, and AI-powered bots. Applications: Industrial automation, medical robotics, autonomous vehicles.
-                  <ul style={{ listStyleType: "disc", paddingLeft: "20px", color: "#fff" }}>
+                  <ul className="font-semibold justify-start list-disc" style={{ paddingLeft: "20px", color: "#fff" }}>
                     <li>Fundamentals of Robotics & Kinematics</li>
                     <li>Motion Control & Robotic Arms</li>
                     <li>AI Integration in Robotics</li>
@@ -395,11 +423,11 @@ const Page3 = () => {
             <motion.div whileHover={{ scale: 1.1 }} className="cont"></motion.div>
             <a href="https://forms.gle/QNyPECMPXzydgTZJ8" target="_blank">
               <div className="content" style={{ backgroundColor: "#232126" }}>
-                <div className="heading" style={{ color: "#fff" }}>Hybrid Electric Vehicles</div>
+                <div className="heading" style={{ color: "#C890FF" }}>Hybrid Electric Vehicles</div>
                 <div className="line"></div>
                 <div className="desp2" style={{ color: "#fff" }}>
                   Learn EV components, battery management, and power electronics. Work on regenerative braking, energy-efficient models, and green mobility. Applications: Electric cars, hybrid vehicle technology.
-                  <ul style={{ listStyleType: "disc", paddingLeft: "20px", color: "#fff" }}>
+                  <ul className="font-semibold justify-start list-disc" style={{ paddingLeft: "20px", color: "#fff" }}>
                     <li>Introduction to Electric & Hybrid Vehicles</li>
                     <li>Battery Management Systems (BMS)</li>
                     <li>Power Electronics & Energy Recovery</li>
@@ -446,11 +474,11 @@ const Page4 = () => {
             <motion.div whileHover={{ scale: 1.1 }} className="cont"></motion.div>
             <a href="https://forms.gle/QNyPECMPXzydgTZJ8" target="_blank">
               <div className="content" style={{ backgroundColor: "#232126" }}>
-                <div className="heading" style={{ color: "#fff" }}>AutoCAD & 3D Modelling</div>
+                <div className="heading" style={{ color: "#C890FF" }}>AutoCAD & 3D Modelling</div>
                 <div className="line"></div>
                 <div className="desp2" style={{ color: "#fff" }}>
                   Learn CAD design, 3D rendering, and blueprint drafting. Work with SolidWorks, CATIA, and Revit for industrial design. Applications: Architecture, mechanical product design, structural engineering.
-                  <ul style={{ listStyleType: "disc", paddingLeft: "20px", color: "#fff" }}>
+                  <ul className="font-semibold justify-start list-disc" style={{ paddingLeft: "20px", color: "#fff" }}>
                     <li>Fundamentals of CAD Design</li>
                     <li>Blueprint Drafting & 3D Rendering</li>
                     <li>Industrial Design Tools (SolidWorks, CATIA)</li>
@@ -463,11 +491,11 @@ const Page4 = () => {
             <motion.div whileHover={{ scale: 1.1 }} className="cont"></motion.div>
             <a href="https://forms.gle/QNyPECMPXzydgTZJ8" target="_blank">
               <div className="content" style={{ backgroundColor: "#232126" }}>
-                <div className="heading" style={{ color: "#fff" }}>Car Designing & IC Engine</div>
+                <div className="heading" style={{ color: "#C890FF" }}>Car Designing & IC Engine</div>
                 <div className="line"></div>
                 <div className="desp2" style={{ color: "#fff" }}>
                   Covers automobile aerodynamics, fuel efficiency, and combustion engine design. Learn engine simulation, automotive materials, and sustainability in transport. Applications: Automobile manufacturing, racing car engineering.
-                  <ul style={{ listStyleType: "disc", paddingLeft: "20px", color: "#fff" }}>
+                  <ul className="font-semibold justify-start list-disc" style={{ paddingLeft: "20px", color: "#fff" }}>
                     <li>Automotive Aerodynamics & Vehicle Dynamics</li>
                     <li>Combustion Engine Design & Fuel Efficiency</li>
                     <li>Engine Simulation & Material Selection</li>
@@ -513,11 +541,11 @@ const Page5 = () => {
             <motion.div whileHover={{ scale: 1.1 }} className="cont"></motion.div>
             <a href="https://forms.gle/QNyPECMPXzydgTZJ8" target="_blank">
               <div className="content" style={{ backgroundColor: "#232126" }}>
-                <div className="heading" style={{ color: "#fff" }}>AutoCAD & 3D Modelling</div>
+                <div className="heading" style={{ color: "#C890FF" }}>AutoCAD & 3D Modelling</div>
                 <div className="line"></div>
                 <div className="desp2" style={{ color: "#fff" }}>
                   Learn blueprint drafting, 3D visualization, and structural design. Work on industry-standard tools like AutoCAD, Revit, and SketchUp. Applications: Architecture, urban planning, civil engineering.
-                  <ul style={{ listStyleType: "disc", paddingLeft: "20px", color: "#fff" }}>
+                  <ul className="font-semibold justify-start list-disc" style={{ paddingLeft: "20px", color: "#fff" }}>
                     <li>Building Design & Architectural Planning</li>
                     <li>3D Modeling & Structural Drafting</li>
                   </ul>
@@ -529,11 +557,11 @@ const Page5 = () => {
             <motion.div whileHover={{ scale: 1.1 }} className="cont"></motion.div>
             <a href="https://forms.gle/QNyPECMPXzydgTZJ8" target="_blank">
               <div className="content" style={{ backgroundColor: "#232126" }}>
-                <div className="heading" style={{ color: "#fff" }}>Construction Planning & Structural Analysis</div>
+                <div className="heading" style={{ color: "#C890FF" }}>Construction Planning & Structural Analysis</div>
                 <div className="line"></div>
                 <div className="desp2" style={{ color: "#fff" }}>
                   Covers material testing, project management, and reinforced concrete structures. Learn high-rise building designs and stability simulations. Applications: Smart city planning, large-scale infrastructure projects.
-                  <ul style={{ listStyleType: "disc", paddingLeft: "20px", color: "#fff" }}>
+                  <ul className="font-semibold justify-start list-disc" style={{ paddingLeft: "20px", color: "#fff" }}>
                     <li>Project Management & Planning</li>
                     <li>Reinforced Concrete Structures & Material Testing</li>
                     <li>Structural Stability Simulations</li>
@@ -575,6 +603,65 @@ const Page6 = () => {
         </div>
       </div>
 
+      <div className="flex justify-center">
+        <div className="row" id="aims2" justify-content-center>
+          <div className="col-lg-4 col-md-6" key={4}>
+            <motion.div whileHover={{ scale: 1.1 }} className="cont"></motion.div>
+            <a href="https://forms.gle/QNyPECMPXzydgTZJ8" target="_blank">
+              <div className="content" style={{ backgroundColor: "#232126" }}>
+                <div className="heading" style={{ color: "#C890FF" }}>Digital Marketing</div>
+                <div className="line"></div>
+                <div className="desp2" style={{ color: "#fff" }}>
+                  Learn SEO, Google Ads, social media marketing, and content strategy. Hands-on training with Facebook & Instagram Ads, LinkedIn branding, and influencer marketing. Applications: Brand growth, online advertising, lead generation.
+                  
+                  <ul className="font-semibold justify-start list-disc" style={{ paddingLeft: "20px", color: "#fff" }}>
+                    <li>SEO & Content Strategy</li>
+                    <li>Google Ads & Paid Campaigns</li>
+                    <li>Social Media Marketing (Facebook, Instagram, LinkedIn)</li>
+                    <li>Influencer Branding & Affiliate Marketing</li>
+
+                  </ul>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div className="col-lg-4 col-md-6" key={4}>
+            <motion.div whileHover={{ scale: 1.1 }} className="cont"></motion.div>
+            <a href="https://forms.gle/QNyPECMPXzydgTZJ8" target="_blank">
+              <div className="content" style={{ backgroundColor: "#232126" }}>
+                <div className="heading" style={{ color: "#C890FF" }}>Finance & Stock Market</div>
+                <div className="line"></div>
+                <div className="desp2" style={{ color: "#fff" }}>
+                Covers investment strategies, stock market analysis, and financial risk management. Learn real-time trading simulations, portfolio management, and crypto investments. Applications: Wealth management, investment banking, fintech.
+                  <ul className="font-semibold justify-start list-disc" style={{ paddingLeft: "20px", color: "#fff" }}>
+                    <li>Investment Strategies & Risk Management</li>
+                    <li>Stock Market Analysis & Trading</li>
+                    <li> Crypto Investments & Portfolio Management</li>
+                  </ul>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div className="col-lg-4 col-md-6" key={4}>
+            <motion.div whileHover={{ scale: 1.1 }} className="cont"></motion.div>
+            <a href="https://forms.gle/QNyPECMPXzydgTZJ8" target="_blank">
+              <div className="content" style={{ backgroundColor: "#232126" }}>
+                <div className="heading" style={{ color: "#C890FF" }}>Finance & Stock Market</div>
+                <div className="line"></div>
+                <div className="desp2" style={{ color: "#fff" }}>
+                Learn talent acquisition, payroll management, HR analytics, and labor laws. Develop skills in employee engagement, leadership development, and corporate training. Applications: HR consulting, corporate recruitment, HR tech startups.
+                  <ul className="font-semibold justify-start list-disc" style={{ paddingLeft: "20px", color: "#fff" }}>
+                    <li>Talent Acquisition & HR Analytics</li>
+                    <li>Payroll Management & Labor Laws</li>
+                    <li>Leadership Development & Corporate Training</li>
+                  </ul>
+                </div>
+              </div>
+            </a>
+          </div>
+
+        </div>
+      </div>
 
     </ProjectWrapper>
   );
@@ -672,7 +759,7 @@ const ProjectWrapper = styled.section`
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
-    text-align: center;
+    text-align: left;
     color: #001824;
     padding: 0rem 5vw;
     justify-content: center;
