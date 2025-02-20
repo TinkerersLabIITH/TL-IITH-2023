@@ -137,10 +137,17 @@ const Home = () => {
         <div className="flex flex-col gap-[2rem] w-[65%]">
           <div className="text-white text-[3rem] sm:text-[2rem] md:text-[3rem] lg:text-[5rem] text-center font-semibold">UPCOMING WORKSHOPS</div>
           {/* <WorkshopsC /> */}
-          <div className="flex flex-row justify-center h-auto w-full cursor-pointer">
+          <div className="flex flex-row items-center justify-evenly h-auto w-full cursor-pointer">
             <NavLink to="/workshops">
-              <img src="./images/teachnook-logo.svg" alt="workshops" className="w-[18rem] h-[24rem]" />
+              <img src="./images/teachnook-logo.svg" alt="workshops" className="w-[18rem] h-[24rem] p-4 border-2" />
             </NavLink>
+            <div>
+              <a href="https://technocon.org/workshops/iit-hyderabad/" target="_blank">
+                <img src="./images/technocon.jpg" className="w-[36rem] h-[22rem]" alt="workshop-technocon" />
+              </a>
+            </div>
+
+
           </div>
 
           <div className="text-white text-[3rem] sm:text-[2rem] md:text-[3rem] lg:text-[5rem] text-center font-semibold mt-6">HIGHLIGHTS</div>
