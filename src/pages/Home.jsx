@@ -40,6 +40,16 @@ const Home = () => {
                 </motion.button>
               </NavLink>
 
+              <a href="https://tl-thrust-site.vercel.app/" target="_blank">
+                <motion.button
+                  whileHover={{ scale: 1.2 }}
+                  whileTap={{ scale: 0.8 }}
+                  className="reachus"
+                >
+                  THRUST
+                </motion.button>
+              </a>
+
               <a href="https://tlid.vercel.app" target="_blank">
                 <motion.button
                   whileHover={{ scale: 1.2 }}
