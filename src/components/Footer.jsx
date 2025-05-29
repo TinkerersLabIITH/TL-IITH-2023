@@ -53,17 +53,17 @@ const Footer = () => {
               {/* <img src="./images/Discord.svg" />
               <img src="./images/Twitter.svg" /> */}
             </div>
-            <div className="flex flex-row gap-8">
+            {/* <div className="flex flex-row gap-8">
               <img src="./images/mail.svg" alt="" />
               <div className="text-white text-[1.5rem] underline underline-offset-4">ce22btech11040@iith.ac.in</div>
-            </div>
+            </div> */}
             <div className="flex flex-row gap-8">
               <img src="./images/mail.svg" alt="" />
               <div className="text-white text-[1.5rem] underline underline-offset-4">tl@campus.iith.ac.in</div>
             </div>
             <div className="flex flex-row gap-8">
               <img src="./images/call.svg" alt="" />
-              <div className="text-white text-[1.5rem] underline underline-offset-4">+91 95410 23301</div>
+              <div className="text-white text-[1.5rem] underline underline-offset-4">+91 8283825351</div>
             </div>
 
           </div>
