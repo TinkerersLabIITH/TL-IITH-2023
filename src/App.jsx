@@ -9,6 +9,7 @@ import Projects from './pages/Projects';
 import Contacts from './pages/Contacts';
 import Footer from './components/Footer';
 import Workshops from './pages/Workshops';
+import Sponsors from './pages/Sponsors';
 import { ThemeProvider } from 'styled-components';
 import GlobalStyle from './Globalstyle';
 import "./index.css"
@@ -36,6 +37,7 @@ const App = () => {
           <Route path="events" element={<Events />} />
           <Route path="inventory" element={<Inventory />} />
           <Route path="projects" element={<Projects />} />
+          <Route path="sponsors" element={<Sponsors />} />
           <Route path="contacts" element={<Contacts />} />
           <Route path="workshops" element={<Workshops />} />
         </Routes>
