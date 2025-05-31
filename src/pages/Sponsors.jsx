@@ -169,7 +169,7 @@ const InventoryWrapper = styled.section`
   }
     .light {
     position: absolute;
-    width: 800px;
+    width: 850px;
     height: 1100px;
     z-index: 0;
     pointer-events: none;
@@ -238,22 +238,7 @@ const InventoryWrapper = styled.section`
   .col-xl {
     text-align: center;
   }
-  .wip {
-    padding-top: 9rem;
-  }
-  .wip .hero-img {
-    width: 10rem;
-    animation: rotation 10s infinite linear;
-  }
 
-  @keyframes rotation {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(359deg);
-    }
-  }
   .circle1 {
     position: absolute;
     background-color: #6c10c6;
@@ -376,10 +361,6 @@ const InventoryWrapper = styled.section`
       padding: 0 1rem;
     }
 
-    .wip h2 {
-      font-size: 4rem;
-      padding-bottom: 5rem;
-    }
     .pic1 {
       display: none;
     }
@@ -560,10 +541,6 @@ const InventoryWrapper = styled.section`
       width: 100vw;
     }
 
-    .wip h2 {
-      font-size: 4rem;
-      padding-bottom: 5rem;
-    }
     .pic1 {
       display: none;
     }
