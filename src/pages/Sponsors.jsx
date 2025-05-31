@@ -522,12 +522,6 @@ const InventoryWrapper = styled.section`
     align-items: center;
   }
 
-  .partner-heading {
-    color: white;
-    font-size: 2.8rem;
-    margin-top: 2rem;
-  }
-
   .sponsor {
     background-color: #111827;
     padding: 20px;
