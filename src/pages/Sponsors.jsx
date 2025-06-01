@@ -159,9 +159,9 @@ const Sponsors = () => {
   );
 };
 
-export default Inventory;
+export default Sponsors;
 
-const InventoryWrapper = styled.section`
+const SponsorsWrapper = styled.section`
   padding: 9rem 0;
   overflow: hidden;
   .whole-sponsor {
