@@ -39,9 +39,9 @@ const interval = 200; // Delay between each letter
 const typingDelay = 2000; // Delay before erasing starts
 const erasingDelay = 100; // Delay between each erased letter
 
-const Inventory = () => {
+const Sponsors = () => {
   return (
-    <InventoryWrapper>
+    <SponsorsWrapper>
       
       <motion.div whileHover={{ scale: 1.5 }} className="circle1" />
       <motion.div whileHover={{ scale: 1.5 }} className="circle2" />
@@ -155,7 +155,7 @@ const Inventory = () => {
         </div>
         </div>
       </div>
-    </InventoryWrapper>
+    </SponsorsWrapper>
   );
 };
 
