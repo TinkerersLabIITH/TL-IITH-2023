@@ -63,7 +63,7 @@ const Footer = () => {
             </div>
             <div className="flex flex-row gap-8">
               <img src="./images/call.svg" alt="" />
-              <div className="text-white text-[1.5rem] underline underline-offset-4">+91 8283825351</div>
+              <div className="text-white text-[1.5rem] underline underline-offset-4">+91 7999224011</div>
             </div>
 
           </div>
