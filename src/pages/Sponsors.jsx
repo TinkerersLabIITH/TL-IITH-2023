@@ -35,10 +35,6 @@ const groupedSponsors = sponsors.reduce((acc, sponsor) => {
   return acc;
 }, {});
 
-const handleClick = (event, link) => {
-  console.log(`Navigating to ${link}`);
-};
-
 const interval = 200; // Delay between each letter
 const typingDelay = 2000; // Delay before erasing starts
 const erasingDelay = 100; // Delay between each erased letter
