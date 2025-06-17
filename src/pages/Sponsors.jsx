@@ -13,8 +13,8 @@ const sponsors = [
   { category: "Silver Sponsor", logo: "/sponsors/Logo 1.png", name: "Contentstack" },
   { category: "Silver Sponsor", logo: "/sponsors/Group 317.png", name: "NMDC" },
   { category: "AutoExpo Partner", logo: "/sponsors/image 64 (1).png", name: "Servo" },
-  { category: "Learning Partners", logo: "/sponsors/image 64 (2).png", name: "QuillBot" },
-  { category: "Learning Partners", logo: "/sponsors/Symbolab logo 2.png", name: "Symbolab" },
+  { category: "Learning Partners", logo: "/sponsors/image 64 (2).png", name: "QuillBot",link:"https://quillbot.com/ai-humanizer" },
+  { category: "Learning Partners", logo: "/sponsors/Symbolab logo 2.png", name: "Symbolab" ,link:"http://Symbolab.com"},
   { category: "Event Partners", logo: "/sponsors/image 65.png", name: "Cubelelo" },
   { category: "Event Partners", logo: "/sponsors/Silent Logo White 1.png", name: "Silent Owl" },
   { category: "Event Partners", logo: "/sponsors/WhatsApp Image 2025-03-18 at 21.40.48_be2ef94d 1.png", name: "RoboWars" },
@@ -34,6 +34,10 @@ const groupedSponsors = sponsors.reduce((acc, sponsor) => {
   acc[sponsor.category].push(sponsor);
   return acc;
 }, {});
+
+const handleClick = (event, link) => {
+  console.log(`Navigating to ${link}`);
+};
 
 const interval = 200; // Delay between each letter
 const typingDelay = 2000; // Delay before erasing starts
@@ -111,17 +115,22 @@ const Sponsors = () => {
               <div className="sponsorlist">
                 {groupedSponsors[category].map((sponsor, idx) => (
                   <div className="sponsor-card" key={idx}>
-                    <img
-                      className="sponsor-logo"
-                      src={sponsor.logo}
-                    />
-                    </div>
+                    {sponsor.link ? (
+                      <a href={sponsor.link} target="_blank" rel="noopener noreferrer" className="sponsor-link">
+                        <img className="sponsor-logo" src={sponsor.logo} alt={sponsor.name} />
+                      </a>
+                    ) : (
+                      <img className="sponsor-logo" src={sponsor.logo} alt={sponsor.name} />
+                    )}
+                  </div>
                 ))}
               </div>
             </div>
           )
         ))}
 
+        
+      
         <div className="sponsor-row">
           <div className="sponsor-container">
             <h4 className="sponsor-title">{endrows[0].category}</h4>
@@ -159,9 +168,9 @@ const Sponsors = () => {
   );
 };
 
-export default Inventory;
+export default Sponsors;
 
-const InventoryWrapper = styled.section`
+const SponsorsWrapper = styled.section`
   padding: 9rem 0;
   overflow: hidden;
   .whole-sponsor {
@@ -451,12 +460,19 @@ const InventoryWrapper = styled.section`
   }
 
   .sponsor-logo {
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     object-fit: contain;
     margin-bottom: 1.5rem;
   }
-
+  .sponsor-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+  }
   .main-sponsor {
     display: flex;
     justify-content: center;
@@ -486,8 +502,6 @@ const InventoryWrapper = styled.section`
     margin-bottom: 1.5rem;
     z-index: 1;
   }
-
-
 
   .sponsor-row {
   display: flex;
