@@ -467,7 +467,6 @@ const SponsorsWrapper = styled.section`
     justify-content: center;
     width: 100%;
     height: 100%;
-    text-decoration: none;
   }
   .main-sponsor {
     display: flex;
