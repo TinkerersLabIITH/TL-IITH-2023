@@ -29,6 +29,15 @@ const Home = () => {
               Tinkerers' Laboratory
             </motion.div>
             <div className="hero-tag">IIT Hyderabad</div>
+            <a href="https://forms.fillout.com/t/v9XHsH6Ub9us" target="_blank">
+                <motion.button
+                  whileHover={{ scale: 1.2 }}
+                  whileTap={{ scale: 0.8 }}
+                  className="reachus"
+                >
+                  Tinker Tech
+                </motion.button>
+            </a>
             <div className="flex flex-col justify-center items-center">
               <NavLink to="/contacts">
                 <motion.button
@@ -39,16 +48,6 @@ const Home = () => {
                   Reach Us
                 </motion.button>
               </NavLink>
-
-              <a href="https://tl-thrust-site.vercel.app/" target="_blank">
-                <motion.button
-                  whileHover={{ scale: 1.2 }}
-                  whileTap={{ scale: 0.8 }}
-                  className="reachus"
-                >
-                  THRUST
-                </motion.button>
-              </a>
 
               <a href="https://tlid.vercel.app" target="_blank">
                 <motion.button
